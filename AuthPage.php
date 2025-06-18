@@ -148,8 +148,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit">Signup</button>
     </form>
 
-    <div class="switch-link" onclick="toggleForm()">Don't have an account? Sign up</div>
+    <div class="switch-link" onclick="toggleForm()">Don't have an account? Sign up
+
+    </div>
+    <form class="active" action="AdminLogin.php">
+    <button type="submit" style="padding: 10px; width: 100%; background-color: orange; border: none; color: white; font-weight: bold;" >Login As Admin</button>
+</form>
 </div>
+
 
 <script>
     let isLogin = true;
@@ -169,3 +175,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </body>
 </html>
+
