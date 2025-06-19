@@ -1,0 +1,1102 @@
+topic,question,option1,option2,option3,option4,answer
+Java,What is the default value of a boolean variable in Java?,true,false,null,undefined,2
+Java,Which keyword is used to declare a constant in Java?,const,final,static,constant,2
+Java,What is the purpose of the 'this' keyword in Java?,To refer to the current object,To refer to the parent class,To refer to the static context,To refer to the method,1
+Java,Which of the following is a valid constructor in Java?,public MyClass(){},MyClass(){},MyClass(){};public,public void MyClass(){},1
+Java,What is the output of the following code: System.out.println(1 + 2 + "3");?,123,33,6,Error,1
+Java,Which of the following is not a valid access modifier in Java?,public,private,protected,internal,4
+Java,What is the purpose of the 'instanceof' operator?,To check the type of an object,To create an instance,To compare two objects,To cast an object,1
+Java,Which method is used to compare two strings in Java?,compare(),equals(),==,compareTo(),2
+Java,What is the purpose of the 'default' keyword in an interface?,To provide a default implementation,To define abstract methods,To create constants,To declare variables,1
+Java,Which of the following is a valid way to create a thread in Java?,new Thread(),Thread t = new Thread(),Thread t = new Thread(); t.start(),All of the above,4
+Java,What is the purpose of the 'break' statement in Java?,To exit a loop,To skip an iteration,To terminate a program,To continue a loop,1
+Java,Which of the following is a valid way to declare an array in Java?,int[] arr = new int[5];,int arr[] = new int[5];,Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(5 + 5 + "5");?,55,105,Error,5,1
+Java,Which of the following is a wrapper class for int?,Integer,Int,Number,Float,1
+Java,What is the purpose of the 'continue' statement in Java?,To skip the current iteration of a loop,To exit a loop,To terminate a program,To continue a program,1
+Java,Which of the following is not a valid loop in Java?,for,while,do-while,repeat,4
+Java,What is the purpose of the 'return' statement in Java?,To exit a method and return a value,To terminate a program,To skip an iteration,To create a loop,1
+Java,Which of the following is a valid way to handle exceptions in Java?,try-catch,throw-try,catch-throw,try-throw,1
+Java,What is the output of the following code: System.out.println(10 / 3);?,3,3.0,3.333,Error,1
+Java,Which of the following is a valid way to declare a method in Java?,public void myMethod(){},void myMethod(){},public myMethod(){},All of the above,1
+Java,What is the purpose of the 'synchronized' block in Java?,To ensure thread safety,To create a method,To define a variable,To declare a class,1
+Java,Which of the following is a valid way to create an instance of a class?,MyClass obj = new MyClass();,MyClass obj;,MyClass obj = MyClass();,All of the above,1
+Java,What is the output of the following code: System.out.println("Hello" + " World");?,Hello World,HelloWorld,Error,Hello,1
+Java,Which of the following is a valid way to declare a multi-dimensional array in Java?,int[][] arr = new int[3][4];,int arr[][] = new int[3][4];,Both A and B,Neither A nor B,3
+Java,What is the purpose of the 'volatile' keyword in Java?,To ensure visibility of changes to variables across threads,To create constants,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a static method in Java?,public static void myMethod(){},static void myMethod(){},Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(5 + 5 + 5);?,15,55,Error,5,1
+Java,Which of the following is a valid way to declare a final variable in Java?,final int x = 10;,int final x = 10;,final x = 10;,int x = final 10;,1
+Java,What is the purpose of the 'assert' keyword in Java?,To perform debugging,To create a constant,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare an interface in Java?,public interface MyInterface{},interface MyInterface{},Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(10 % 3);?,1,3,0,Error,1
+Java,Which of the following is a valid way to declare a constructor in Java?,public MyClass(){},MyClass(){},Both A and B,Neither A nor B,3
+Java,What is the purpose of the 'super()' constructor in Java?,To call the parent class constructor,To create an instance,To define a method,To declare a variable,1
+Java,Which of the following is a valid way to declare a package in Java?,package myPackage;,import myPackage;,Both A and B,Neither A nor B,1
+Java,What is the output of the following code: System.out.println("5" + 5);?,55,10,Error,5,1
+Java,Which of the following is a valid way to declare a synchronized method in Java?,public synchronized void myMethod(){},synchronized void myMethod(){},Both A and B,Neither A nor B,3
+Java,What is the purpose of the 'throw' keyword in Java?,To explicitly throw an exception,To create a method,To define a class,To declare a variable,1
+Java,Which of the following is a valid way to declare a lambda expression in Java?,(x) -> x + 1,x -> x + 1,(x) -> { return x + 1; },All of the above,4
+Java,What is the output of the following code: System.out.println(5 == 5);?,true,false,Error,5,1
+Java,Which of the following is a valid way to declare a generic class in Java?,class MyClass<T>{},class MyClass<T extends Number>{},Both A and B,Neither A nor B,3
+Java,What is the purpose of the 'finally' block in Java?,To execute code after try-catch,To handle exceptions,To create a method,To declare a variable,1
+Java,Which of the following is a valid way to declare a nested class in Java?,class OuterClass{ class InnerClass{} },class OuterClass{ static class InnerClass{} },Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(5 != 5);?,true,false,Error,5,2
+Java,Which of the following is a valid way to declare a method that returns a value in Java?,public int myMethod(){},void myMethod(){},public myMethod(){},All of the above,1
+Java,What is the purpose of the 'instanceof' operator in Java?,To check if an object is an instance of a class,To create an instance,To compare two objects,To cast an object,1
+Java,Which of the following is a valid way to declare a switch statement in Java?,switch(expression) { case 1: break; },switch(expression) { case 1: break; default: },Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(5 + "5");?,55,10,Error,5,1
+Java,Which of the following is a valid way to declare a method with variable arguments in Java?,public void myMethod(int... nums){},public void myMethod(int[] nums){},Both A and B,Neither A nor B,1
+Java,What is the purpose of the 'enum' keyword in Java?,To define a set of named constants,To create a class,To define a method,To declare a variable,1
+Java,Which of the following is a valid way to declare a synchronized block in Java?,synchronized(this) { },synchronized(obj) { },Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(5 + 5 + 5 + "5");?,555,105,Error,5,1
+Java,Which of the following is a valid way to declare a method that throws an exception in Java?,public void myMethod() throws Exception{},void myMethod() throws Exception{},Both A and B,Neither A nor B,3
+Java,What is the purpose of the 'volatile' keyword in Java?,To ensure visibility of changes to variables across threads,To create constants,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a class that extends another class in Java?,class MyClass extends AnotherClass{},class MyClass : AnotherClass{},class MyClass inherits AnotherClass{},All of the above,1
+Java,What is the output of the following code: System.out.println(5 + 5 * 2);?,15,10,Error,5,2
+Java,Which of the following is a valid way to declare a method that is abstract in Java?,public abstract void myMethod();,abstract void myMethod();,Both A and B,Neither A nor B,3
+Java,What is the purpose of the 'native' keyword in Java?,To call native code,To create methods,To define classes,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is synchronized in Java?,public synchronized void myMethod(){},synchronized void myMethod(){},Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(5 / 2);?,2,2.5,Error,5,1
+Java,Which of the following is a valid way to declare a method that is final in Java?,public final void myMethod(){},final void myMethod(){},Both A and B,Neither A nor B,3
+Java,What is the purpose of the 'strictfp' keyword in Java?,To ensure floating-point precision,To create methods,To define classes,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is static in Java?,public static void myMethod(){},static void myMethod(){},Both A and B,Neither A nor B,3
+Java,What is the output of the following code: System.out.println(5 - 2);?,3,2,Error,5,1
+Java,Which of the following is a valid way to declare a method that is private in Java?,private void myMethod(){},void myMethod() private{},Both A and B,Neither A nor B,1
+Java,What is the purpose of the 'synchronized' keyword in Java?,To prevent race conditions,To create threads,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is protected in Java?,protected void myMethod(){},void myMethod() protected{},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 + 2 * 3);?,11,16,Error,5,1
+Java,Which of the following is a valid way to declare a method that is public in Java?,public void myMethod(){},void myMethod() public{},Both A and B,1
+Java,What is the purpose of the 'default' keyword in a switch statement?,To provide a default case,To create a method,To define a class,To declare a variable,1
+Java,Which of the following is a valid way to declare a method that is synchronized in Java?,public synchronized void myMethod(){},synchronized void myMethod(){},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 + 5 + 5);?,15,55,Error,5,1
+Java,Which of the following is a valid way to declare a method that is abstract in Java?,public abstract void myMethod();,abstract void myMethod();,Both A and B,1
+Java,What is the purpose of the 'volatile' keyword in Java?,To ensure visibility of changes to variables across threads,To create constants,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is final in Java?,public final void myMethod(){},final void myMethod(){},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 / 2);?,2,2.5,Error,5,1
+Java,Which of the following is a valid way to declare a method that is private in Java?,private void myMethod(){},void myMethod() private{},Both A and B,1
+Java,What is the purpose of the 'synchronized' keyword in Java?,To prevent race conditions,To create threads,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is protected in Java?,protected void myMethod(){},void myMethod() protected{},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 + 2 * 3);?,11,16,Error,5,1
+Java,Which of the following is a valid way to declare a method that is public in Java?,public void myMethod(){},void myMethod() public{},Both A and B,1
+Java,What is the purpose of the 'default' keyword in a switch statement?,To provide a default case,To create a method,To define a class,To declare a variable,1
+Java,Which of the following is a valid way to declare a method that is synchronized in Java?,public synchronized void myMethod(){},synchronized void myMethod(){},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 + 5 + 5);?,15,55,Error,5,1
+Java,Which of the following is a valid way to declare a method that is abstract in Java?,public abstract void myMethod();,abstract void myMethod();,Both A and B,1
+Java,What is the purpose of the 'volatile' keyword in Java?,To ensure visibility of changes to variables across threads,To create constants,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is final in Java?,public final void myMethod(){},final void myMethod(){},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 / 2);?,2,2.5,Error,5,1
+Java,Which of the following is a valid way to declare a method that is private in Java?,private void myMethod(){},void myMethod() private{},Both A and B,1
+Java,What is the purpose of the 'synchronized' keyword in Java?,To prevent race conditions,To create threads,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is protected in Java?,protected void myMethod(){},void myMethod() protected{},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 + 2 * 3);?,11,16,Error,5,1
+Java,Which of the following is a valid way to declare a method that is public in Java?,public void myMethod(){},void myMethod() public{},Both A and B,1
+Java,What is the purpose of the 'default' keyword in a switch statement?,To provide a default case,To create a method,To define a class,To declare a variable,1
+Java,Which of the following is a valid way to declare a method that is synchronized in Java?,public synchronized void myMethod(){},synchronized void myMethod(){},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 + 5 + 5);?,15,55,Error,5,1
+Java,Which of the following is a valid way to declare a method that is abstract in Java?,public abstract void myMethod();,abstract void myMethod();,Both A and B,1
+Java,What is the purpose of the 'volatile' keyword in Java?,To ensure visibility of changes to variables across threads,To create constants,To define methods,To declare variables,1
+Java,Which of the following is a valid way to declare a method that is final in Java?,public final void myMethod(){},final void myMethod(){},Both A and B,1
+Java,What is the output of the following code: System.out.println(5 / 2);?,2,2.5,Error,5,1
+Java,Which of the following is a valid way to declare a method that is private in Java?,private void myMethod(){},void myMethod() private{},Both A and B,1
+SQL,Which SQL clause is used to filter groups?,HAVING,WHERE,GROUP BY,ORDER BY,1
+SQL,What is the purpose of the NVL function in Oracle?,Replace NULL values,Count NULL values,Find NULL values,Delete NULL values,1
+SQL,Which join returns all rows when there is a match in either table?,FULL JOIN,INNER JOIN,LEFT JOIN,RIGHT JOIN,1
+SQL,What does ACID stand for in database transactions?,Atomicity Consistency Isolation Durability,Accuracy Consistency Integrity Durability,Atomicity Concurrency Integrity Durability,Atomicity Consistency Independence Durability,1
+SQL,Which SQL command is used to change a table's structure?,ALTER TABLE,UPDATE TABLE,MODIFY TABLE,CHANGE TABLE,1
+SQL,What is the purpose of the WITH clause?,To define a temporary result set,To create a table,To update records,To delete records,1
+SQL,Which function returns the current date and time?,SYSDATE,CURRENT_DATE,NOW,TODAY,1
+SQL,What is a self-join?,A join of a table to itself,A join with system tables,A join with temporary tables,A join with duplicate tables,1
+SQL,Which SQL operator is used for pattern matching?,LIKE,MATCH,CONTAINS,FIND,1
+SQL,What is the purpose of the MERGE statement?,To perform insert/update/delete in one statement,To combine two tables,To merge databases,To split tables,1
+SQL,Which constraint ensures all values in a column are unique?,UNIQUE,PRIMARY KEY,FOREIGN KEY,CHECK,1
+SQL,What is the difference between CHAR and VARCHAR?,CHAR is fixed-length, VARCHAR is variable-length,CHAR is variable-length, VARCHAR is fixed-length,Both are fixed-length,Both are variable-length,1
+SQL,Which SQL command is used to remove duplicate rows?,SELECT DISTINCT,SELECT UNIQUE,SELECT DIFFERENT,SELECT DISTINCTIVE,1
+SQL,What is the purpose of the LAG function?,To access data from previous rows,To access data from next rows,To find maximum values,To calculate averages,1
+SQL,Which SQL feature prevents SQL injection?,Prepared statements,Views,Triggers,Indexes,1
+SQL,What is a correlated subquery?,A subquery that references outer query,A subquery that runs independently,A subquery that joins tables,A subquery that sorts data,1
+SQL,Which SQL command is used to create a backup of a database?,BACKUP DATABASE,CREATE BACKUP,DUMP DATABASE,EXPORT DATABASE,1
+SQL,What is the purpose of the CASCADE option in DROP TABLE?,To drop dependent objects,To create a backup,To rename tables,To update records,1
+SQL,Which function converts a string to uppercase?,UPPER(),TOUPPER(),UCASE(),All of the above,4
+SQL,What is the purpose of the ROLLUP operator?,To generate subtotals and grand totals,To roll back transactions,To update records,To delete records,1
+SQL,Which SQL command is used to change a column name?,ALTER TABLE RENAME COLUMN,CHANGE COLUMN,MODIFY COLUMN,UPDATE COLUMN,1
+SQL,What is a materialized view?,A physically stored query result,A virtual table,A temporary table,A system table,1
+SQL,Which function extracts part of a date?,EXTRACT(),DATE_PART(),DATEPART(),All of the above,4
+SQL,What is the purpose of the SAVEPOINT command?,To set a point to roll back to,To save data permanently,To create a backup,To update records,1
+SQL,Which SQL command is used to analyze query performance?,EXPLAIN,ANALYZE,DEBUG,PROFILE,1
+SQL,What is the purpose of the OFFSET clause?,To skip rows in results,To limit rows,To filter rows,To sort rows,1
+SQL,Which function returns the position of a substring?,INSTR(),CHARINDEX(),POSITION(),All of the above,4
+SQL,What is a covering index?,An index that contains all columns needed by a query,An index that covers multiple tables,An index that includes all table data,An index that covers system tables,1
+SQL,Which SQL command is used to create a synonym?,CREATE SYNONYM,MAKE SYNONYM,NEW SYNONYM,DEFINE SYNONYM,1
+SQL,What is the purpose of the FETCH clause?,To limit rows returned,To filter data,To sort data,To group data,1
+SQL,Which function converts a date to a string?,TO_CHAR(),FORMAT(),CAST(),All of the above,4
+SQL,What is the purpose of the TABLESAMPLE clause?,To retrieve random sample of rows,To create sample tables,To analyze table structure,To backup tables,1
+SQL,Which SQL command is used to create a role?,CREATE ROLE,MAKE ROLE,NEW ROLE,DEFINE ROLE,1
+SQL,What is the purpose of the PARTITION BY clause?,To divide result sets into partitions,To create table partitions,To backup partitions,To delete partitions,1
+SQL,Which function calculates a moving average?,Window functions with AVG(),MOVING_AVG(),AVG() with GROUP BY,ROLLING_AVG(),1
+SQL,What is the purpose of the UNPIVOT operator?,To transform columns into rows,To transform rows into columns,To delete pivot tables,To create pivot tables,1
+SQL,Which SQL command is used to create a database snapshot?,CREATE DATABASE SNAPSHOT,MAKE SNAPSHOT,NEW SNAPSHOT,DEFINE SNAPSHOT,1
+SQL,What is the purpose of the XML functions in SQL?,To handle XML data,To create XML data,To convert XML data,To delete XML data,1
+SQL,Which function returns the last day of the month?,LAST_DAY(),EOMONTH(),MONTH_END(),Both A and B,4
+SQL,What is the purpose of the SEQUENCE object?,To generate unique numbers,To sort data,To sequence operations,To order tables,1
+SQL,Which SQL command is used to create a full-text index?,CREATE FULLTEXT INDEX,MAKE FULLTEXT INDEX,NEW FULLTEXT INDEX,DEFINE FULLTEXT INDEX,1
+SQL,What is the purpose of the TRY_CONVERT function?,To convert data types with error handling,To try different conversions,To test conversions,To verify data types,1
+SQL,Which function returns the current session user?,USER,SESSION_USER,CURRENT_USER,All of the above,4
+SQL,What is the purpose of the CUME_DIST function?,To calculate cumulative distribution,To count distinct values,To sum values,To find maximum values,1
+SQL,Which SQL command is used to create a spatial index?,CREATE SPATIAL INDEX,MAKE SPATIAL INDEX,NEW SPATIAL INDEX,DEFINE SPATIAL INDEX,1
+SQL,What is the purpose of the NTILE function?,To divide rows into buckets,To count rows,To sum values,To find maximum values,1
+SQL,Which function returns the database name?,DB_NAME(),DATABASE(),CURRENT_DATABASE(),All of the above,4
+SQL,What is the purpose of the PERCENT_RANK function?,To calculate relative rank of rows,To calculate percentages,To rank values,To find maximum values,1
+SQL,Which SQL command is used to create a memory-optimized table?,CREATE MEMORY TABLE,CREATE INMEMORY TABLE,CREATE MEMOPT TABLE,CREATE TABLE WITH MEMORY,2
+SQL,What is the purpose of the LEAD function?,To access subsequent rows,To access previous rows,To find leading values,To calculate averages,1
+SQL,Which function returns the server name?,@@SERVERNAME,SERVER_NAME(),HOST_NAME(),All of the above,4
+SQL,What is the purpose of the FIRST_VALUE function?,To get first value in window frame,To get first row,To find minimum values,To calculate averages,1
+SQL,Which SQL command is used to create a columnstore index?,CREATE COLUMNSTORE INDEX,MAKE COLUMNSTORE INDEX,NEW COLUMNSTORE INDEX,DEFINE COLUMNSTORE INDEX,1
+SQL,What is the purpose of the LAST_VALUE function?,To get last value in window frame,To get last row,To find maximum values,To calculate averages,1
+SQL,Which function returns the database version?,@@VERSION,VERSION(),DB_VERSION(),All of the above,4
+SQL,What is the purpose of the ROW_NUMBER function?,To assign sequential numbers to rows,To count rows,To sum values,To find maximum values,1
+SQL,Which SQL command is used to create a filtered index?,CREATE FILTERED INDEX,MAKE FILTERED INDEX,NEW FILTERED INDEX,DEFINE FILTERED INDEX,1
+SQL,What is the purpose of the DENSE_RANK function?,To rank rows with no gaps,To rank rows with gaps,To count distinct values,To sum values,1
+SQL,Which function returns the transaction ID?,@@TRANID,TRANSACTION_ID(),CURRENT_TRANSACTION(),All of the above,4
+SQL,What is the purpose of the RANK function?,To rank rows with gaps,To rank rows without gaps,To count values,To sum values,1
+SQL,Which SQL command is used to create a hash index?,CREATE HASH INDEX,MAKE HASH INDEX,NEW HASH INDEX,DEFINE HASH INDEX,1
+SQL,What is the purpose of the PERCENTILE_CONT function?,To calculate interpolated value at percentile,To calculate percentages,To count values,To sum values,1
+SQL,Which function returns the connection ID?,@@CONNECTIONID,CONNECTION_ID(),CURRENT_CONNECTION(),All of the above,4
+SQL,What is the purpose of the PERCENTILE_DISC function?,To calculate discrete value at percentile,To calculate percentages,To count values,To sum values,1
+SQL,Which SQL command is used to create a clustered index?,CREATE CLUSTERED INDEX,MAKE CLUSTERED INDEX,NEW CLUSTERED INDEX,DEFINE CLUSTERED INDEX,1
+SQL,What is the purpose of the LAG function?,To access previous rows,To access subsequent rows,To find minimum values,To calculate averages,1
+SQL,Which function returns the schema name?,SCHEMA_NAME(),CURRENT_SCHEMA(),@@SCHEMA,All of the above,4
+SQL,What is the purpose of the FIRST function?,To get first value in ordered set,To get first row,To find minimum values,To calculate averages,1
+SQL,Which SQL command is used to create a nonclustered index?,CREATE NONCLUSTERED INDEX,MAKE NONCLUSTERED INDEX,NEW NONCLUSTERED INDEX,DEFINE NONCLUSTERED INDEX,1
+SQL,What is the purpose of the LAST function?,To get last value in ordered set,To get last row,To find maximum values,To calculate averages,1
+SQL,Which function returns the transaction timestamp?,CURRENT_TIMESTAMP,GETDATE(),SYSDATE,All of the above,4
+SQL,What is the purpose of the NTH_VALUE function?,To get value at specified position,To get nth row,To find specific values,To calculate averages,1
+SQL,Which SQL command is used to create a bitmap index?,CREATE BITMAP INDEX,MAKE BITMAP INDEX,NEW BITMAP INDEX,DEFINE BITMAP INDEX,1
+SQL,What is the purpose of the MEDIAN function?,To calculate median value,To calculate average,To count values,To sum values,1
+SQL,Which function returns the database collation?,@@COLLATION,DATABASE_COLLATION(),CURRENT_COLLATION(),All of the above,4
+SQL,What is the purpose of the LISTAGG function?,To concatenate values into string,To list values,To count values,To sum values,1
+SQL,Which SQL command is used to create a function-based index?,CREATE FUNCTION INDEX,MAKE FUNCTION INDEX,NEW FUNCTION INDEX,DEFINE FUNCTION INDEX,1
+SQL,What is the purpose of the STDDEV function?,To calculate standard deviation,To calculate variance,To count values,To sum values,1
+SQL,Which function returns the isolation level?,@@ISOLATION,ISOLATION_LEVEL(),CURRENT_ISOLATION(),All of the above,4
+SQL,What is the purpose of the VARIANCE function?,To calculate variance,To calculate standard deviation,To count values,To sum values,1
+SQL,Which SQL command is used to create a partitioned index?,CREATE PARTITIONED INDEX,MAKE PARTITIONED INDEX,NEW PARTITIONED INDEX,DEFINE PARTITIONED INDEX,1
+SQL,What is the purpose of the CORR function?,To calculate correlation coefficient,To calculate covariance,To count values,To sum values,1
+SQL,Which function returns the lock timeout setting?,@@LOCK_TIMEOUT,LOCK_TIMEOUT(),CURRENT_LOCK_TIMEOUT(),All of the above,4
+SQL,What is the purpose of the COVAR_POP function?,To calculate population covariance,To calculate sample covariance,To count values,To sum values,1
+SQL,Which SQL command is used to create a compressed index?,CREATE COMPRESSED INDEX,MAKE COMPRESSED INDEX,NEW COMPRESSED INDEX,DEFINE COMPRESSED INDEX,1
+SQL,What is the purpose of the COVAR_SAMP function?,To calculate sample covariance,To calculate population covariance,To count values,To sum values,1
+SQL,Which function returns the deadlock priority?,@@DEADLOCK_PRIORITY,DEADLOCK_PRIORITY(),CURRENT_DEADLOCK_PRIORITY(),All of the above,4
+SQL,What is the purpose of the REGR_* linear regression functions?,To perform linear regression,To calculate correlations,To count values,To sum values,1
+SQL,Which SQL command is used to create a descending index?,CREATE DESCENDING INDEX,MAKE DESCENDING INDEX,NEW DESCENDING INDEX,DEFINE DESCENDING INDEX,1
+SQL,What is the purpose of the STATS_MODE function?,To calculate statistical mode,To calculate median,To count values,To sum values,1
+SQL,Which function returns the transaction state?,XACT_STATE(),@@TRAN_STATE,TRANSACTION_STATE(),All of the above,4
+SQL,What is the purpose of the WIDTH_BUCKET function?,To create equi-width histograms,To create buckets,To count values,To sum values,1
+SQL,Which SQL command is used to create a clustered columnstore index?,CREATE CLUSTERED COLUMNSTORE INDEX,MAKE CLUSTERED COLUMNSTORE INDEX,NEW CLUSTERED COLUMNSTORE INDEX,DEFINE CLUSTERED COLUMNSTORE INDEX,1
+SQL,What is the purpose of the GROUPING function?,To identify super-aggregate rows,To group data,To count values,To sum values,1
+SQL,Which function returns the last identity value generated?,@@IDENTITY,LAST_INSERT_ID(),SCOPE_IDENTITY(),All of the above,4
+SQL,What is the purpose of the GROUPING_ID function?,To compute bitmap of grouping columns,To group data,To count values,To sum values,1
+SQL,Which SQL command is used to create a nonclustered columnstore index?,CREATE NONCLUSTERED COLUMNSTORE INDEX,MAKE NONCLUSTERED COLUMNSTORE INDEX,NEW NONCLUSTERED COLUMNSTORE INDEX,DEFINE NONCLUSTERED COLUMNSTORE INDEX,1Python,What is the correct way to create a function in Python?,def function_name():,function function_name():,create function_name():,func function_name():,1
+SQL,What is the purpose of the TRIM function?,To remove leading and trailing spaces,To convert strings to uppercase,To find the length of a string,To concatenate strings,1
+SQL,Which SQL command is used to create a trigger that fires before an insert?,CREATE TRIGGER BEFORE INSERT,CREATE TRIGGER BEFORE INSERT ON,CREATE TRIGGER AFTER INSERT,CREATE TRIGGER ON INSERT,1
+SQL,What is the purpose of the JSON_VALUE function?,To extract a scalar value from a JSON string,To convert JSON to XML,To validate JSON format,To create JSON objects,1
+Python,Which method is used to add an element to a list?,append(),add(),insert(),push(),1
+Python,What is the purpose of the 'self' parameter in Python?,To refer to the instance of the class,To create a new object,To define a method,To declare a variable,1
+Python,Which operator is used for exponentiation in Python?,**,^,//,%,1
+Python,What is the purpose of the 'import' statement?,To import modules,To create functions,To define classes,To declare variables,1
+Python,Which method is used to remove an element from a list?,remove(),delete(),pop(),extract(),1
+Python,What is the purpose of the 'if' statement?,To make decisions,To create loops,To define functions,To declare variables,1
+Python,Which function is used to get the length of a list?,len(),length(),size(),count(),1
+Python,What is the purpose of the 'for' loop?,To iterate over sequences,To make decisions,To define functions,To declare variables,1
+Python,Which method is used to convert string to integer?,int(),str(),float(),bool(),1
+Python,What is the purpose of the 'class' keyword?,To define a class,To create an object,To define a function,To declare a variable,1
+Python,Which method is used to get user input?,input(),get(),read(),scan(),1
+Python,What is the purpose of the 'try-except' block?,To handle exceptions,To create loops,To define functions,To declare variables,1
+Python,Which method is used to convert integer to string?,str(),int(),float(),bool(),1
+Python,What is the purpose of the 'while' loop?,To repeat code while condition is true,To make decisions,To define functions,To declare variables,1
+Python,Which method is used to find the maximum value?,max(),maximum(),highest(),biggest(),1
+Python,What is the purpose of the 'return' statement?,To return a value from a function,To create a loop,To define a class,To declare a variable,1
+Python,Which method is used to sort a list?,sort(),order(),arrange(),organize(),1
+Python,What is the purpose of the 'break' statement?,To exit a loop,To continue a loop,To define a function,To declare a variable,1
+Python,Which method is used to join strings?,join(),concatenate(),merge(),combine(),1
+Python,What is the purpose of the 'continue' statement?,To skip the current iteration,To exit a loop,To define a function,To declare a variable,1
+Python,Which method is used to split a string?,split(),divide(),separate(),break(),1
+Python,What is the purpose of the 'lambda' function?,To create anonymous functions,To define classes,To create loops,To declare variables,1
+Python,Which method is used to check if a key exists in a dictionary?,in,exists(),has_key(),contains(),1
+Python,What is the purpose of the 'pass' statement?,To do nothing,To create a loop,To define a function,To declare a variable,1
+Python,Which method is used to get the current working directory?,getcwd(),pwd(),current_dir(),work_dir(),1
+Python,What is the purpose of the 'global' keyword?,To declare global variables,To create functions,To define classes,To create loops,1
+Python,Which method is used to read a file?,read(),open(),load(),get(),1
+Python,What is the purpose of the 'yield' keyword?,To create generators,To return values,To define functions,To create loops,1
+Python,Which method is used to get the type of an object?,type(),typeof(),get_type(),object_type(),1
+Python,What is the purpose of the 'def' keyword?,To define a function,To declare a variable,To create a class,To import a module,1
+Python,Which operator is used for floor division in Python?,//,/,%,**,1
+Python,What is the purpose of the 'with' statement?,To manage resources,To create loops,To define functions,To declare variables,1
+Python,Which method is used to remove whitespace from a string?,strip(),trim(),clean(),clear(),1
+Python,What is the purpose of the 'assert' statement?,To test conditions,To handle exceptions,To create loops,To define functions,1
+Python,Which function is used to convert a string to lowercase?,lower(),downcase(),tolower(),casefold(),1
+Python,What is the purpose of the 'map' function?,To apply a function to all items in an iterable,To filter items in an iterable,To reduce items in an iterable,To sort items in an iterable,1
+Python,Which method is used to add an element at a specific index in a list?,insert(),add(),append(),extend(),1
+Python,What is the purpose of the 'filter' function?,To filter items in an iterable,To map items in an iterable,To reduce items in an iterable,To sort items in an iterable,1
+Python,Which method is used to reverse a list?,reverse(),invert(),flip(),backward(),1
+Python,What is the purpose of the 'enumerate' function?,To get index and value pairs from an iterable,To count items in an iterable,To filter items in an iterable,To sort items in an iterable,1
+Python,Which keyword is used to define a class method?,@classmethod,@staticmethod,@property,@method,1
+Python,What is the purpose of the 'super()' function?,To call a method from the parent class,To create a new object,To define a function,To declare a variable,1
+Python,Which method is used to convert a list to a tuple?,tuple(),list(),convert(),change(),1
+Python,What is the purpose of the 'is' operator?,To check object identity,To compare values,To check type,To check membership,1
+Python,Which method is used to find the index of an element in a list?,index(),find(),search(),locate(),1
+Python,What is the purpose of the 'del' statement?,To delete an object,To remove an element from a list,To clear a dictionary,To free memory,1
+Python,Which function is used to create a new dictionary from two lists?,dict(),zip(),combine(),merge(),1
+Python,What is the purpose of the 'try-finally' block?,To ensure cleanup code runs,To handle exceptions,To create loops,To define functions,1
+Python,Which method is used to get the keys of a dictionary?,keys(),get_keys(),list_keys(),dict_keys(),1
+Python,What is the purpose of the 'in' keyword?,To check membership,To define a loop,To create a function,To declare a variable,1
+Python,What is the purpose of the 'self' parameter in a class method?,To refer to the instance of the class,To create a new object,To define a class,To declare a variable,1
+Python,Which method is used to convert a dictionary to a list of tuples?,items(),to_tuples(),convert(),dict_to_list(),1
+Python,What is the purpose of the 'breakpoint()' function?,To set a breakpoint in debugging,To exit a loop,To create a function,To declare a variable,1
+Python,Which method is used to get the values of a dictionary?,values(),get_values(),list_values(),dict_values(),1
+Python,What is the purpose of the 'slice' notation?,To extract a portion of a sequence,To create a new list,To modify a list,To sort a list,1
+Python,Which function is used to read a line from a file?,readline(),read(),get_line(),fetch_line(),1
+Python,What is the purpose of the 'staticmethod' decorator?,To define a static method,To define a class method,To define an instance method,To define a property,1
+Python,Which method is used to create a shallow copy of a list?,copy(),clone(),duplicate(),replicate(),1
+Python,What is the purpose of the 'assertEqual' method in unit testing?,To check if two values are equal,To check if a value is true,To check if a value is false,To check if a value is not None,1
+Python,Which function is used to get the absolute value of a number?,abs(),absolute(),get_abs(),modulus(),1
+Python,What is the purpose of the 'property' decorator?,To define a property in a class,To create a method,To define a variable,To declare a function,1
+Python,Which method is used to convert a set to a list?,list(),set_to_list(),convert(),change(),1
+Python,What is the purpose of the 'zip' function?,To combine multiple iterables,To sort iterables,To filter iterables,To map iterables,1
+Python,Which method is used to clear all items from a dictionary?,clear(),delete(),remove(),empty(),1
+Python,What is the purpose of the 'format' method in strings?,To format strings,To concatenate strings,To split strings,To join strings,1
+Python,Which function is used to get the maximum value from an iterable?,max(),maximum(),highest(),biggest(),1
+Python,What is the purpose of the 'round' function?,To round a number to a specified number of decimal places,To convert a number to an integer,To calculate the square root,To find the absolute value,1
+Python,Which method is used to create a new set from an existing set?,copy(),new_set(),set(),create(),1
+Python,What is the purpose of the 'input' function?,To get user input,To read a file,To write to a file,To display output,1
+Python,Which method is used to check if a string starts with a specific substring?,startswith(),beginswith(),first(),initial(),1
+Python,What is the purpose of the 'join' method in strings?,To concatenate strings,To split strings,To format strings,To replace substrings,1
+Python,Which function is used to get the current time?,time(),now(),current_time(),get_time(),1
+Python,What is the purpose of the 'isinstance' function?,To check if an object is an instance of a class,To check the type of an object,To compare two objects,To create a new object,1
+Python,Which method is used to find the minimum value in a list?,min(),minimum(),lowest(),smallest(),1
+Python,What is the purpose of the 'next' function?,To get the next item from an iterator,To create a new iterator,To reset an iterator,To check if an iterator is exhausted,1
+Python,Which method is used to create a new dictionary from a list of tuples?,dict(),from_tuples(),create_dict(),zip(),1
+Python,What is the purpose of the 'sorted' function?,To sort an iterable,To filter an iterable,To map an iterable,To reduce an iterable,1
+Python,Which method is used to get the last element of a list?,last(),get_last(),[-1],get(),1
+Python,What is the purpose of the 'assertRaises' method in unit testing?,To check if an exception is raised,To check if a value is true,To check if a value is false,To check if a value is not None,1
+Python,Which function is used to create a new list from an iterable?,list(),new_list(),create_list(),from_iterable(),1
+Python,What is the purpose of the 'del' keyword?,To delete an object,To remove an element from a list,To clear a dictionary,To free memory,1
+Python,Which method is used to get the first element of a list?,first(),get_first(),[0],head(),1
+Python,What is the purpose of the 'break' statement in loops?,To exit the loop,To continue the loop,To skip the current iteration,To define a function,1
+Python,Which method is used to get the last index of an element in a list?,last_index(),index(),find_last(),rindex(),1
+Python,What is the purpose of the 'continue' statement in loops?,To skip the current iteration,To exit the loop,To define a function,To declare a variable,1
+Python,Which method is used to get the number of occurrences of an element in a list?,count(),frequency(),occurrences(),tally(),1
+Python,What is the purpose of the 'elif' statement?,To check multiple conditions,To define a function,To create a loop,To declare a variable,1
+Python,Which method is used to convert a list to a set?,set(),list_to_set(),convert(),change(),1
+Python,What is the purpose of the 'assert' statement?,To test conditions during debugging,To handle exceptions,To create loops,To define functions,1
+Python,Which function is used to get the square root of a number?,sqrt(),square(),power(),root(),1
+Python,What is the purpose of the 'in' keyword in a loop?,To iterate over items,To check membership,To define a function,To declare a variable,1
+Python,Which method is used to find the first occurrence of a substring in a string?,find(),index(),search(),locate(),1
+Python,What is the purpose of the 'break' statement in a loop?,To exit the loop,To continue the loop,To skip the current iteration,To define a function,1
+Python,Which method is used to create a shallow copy of a dictionary?,copy(),duplicate(),clone(),replicate(),1
+Python,What is the purpose of the 'is' operator?,To check object identity,To compare values,To check type,To check membership,1
+Python,Which function is used to convert a string to a float?,float(),str(),int(),bool(),1
+Python,What is the purpose of the 'global' keyword?,To declare global variables,To create functions,To define classes,To create loops,1
+Python,Which method is used to get the last element of a tuple?,last(),get_last(),[-1],tail(),1
+Python,What is the purpose of the 'zip' function?,To combine multiple iterables into tuples,To sort iterables,To filter iterables,To map iterables,1
+Python,Which method is used to check if a string ends with a specific substring?,endswith(),finishwith(),lastwith(),finalize(),1
+JavaScript,How do you declare a variable in JavaScript?,var,let,const,All of the above,1
+JavaScript,Which method is used to add an element to the end of an array?,push(),add(),append(),insert(),1
+JavaScript,What is the purpose of the 'function' keyword?,To define a function,To create a variable,To define a class,To create an object,1
+JavaScript,Which operator is used for strict equality in JavaScript?,===,==,=,!=,1
+JavaScript,What is the purpose of the 'return' statement?,To return a value from a function,To create a loop,To define a variable,To create an object,1
+JavaScript,Which method is used to remove the last element from an array?,pop(),remove(),delete(),extract(),1
+JavaScript,What is the purpose of the 'if' statement?,To make decisions,To create loops,To define functions,To declare variables,1
+JavaScript,Which function is used to convert string to number?,parseInt(),Number(),int(),convert(),1
+JavaScript,What is the purpose of the 'for' loop?,To iterate over sequences,To make decisions,To define functions,To declare variables,1
+JavaScript,Which method is used to join array elements into a string?,join(),concat(),merge(),combine(),1
+JavaScript,What is the purpose of the 'class' keyword?,To define a class,To create an object,To define a function,To declare a variable,1
+JavaScript,Which method is used to get user input?,prompt(),input(),get(),read(),1
+JavaScript,What is the purpose of the 'try-catch' block?,To handle exceptions,To create loops,To define functions,To declare variables,1
+JavaScript,Which method is used to convert number to string?,toString(),String(),str(),convert(),1
+JavaScript,What is the purpose of the 'while' loop?,To repeat code while condition is true,To make decisions,To define functions,To declare variables,1
+JavaScript,Which method is used to find the maximum value?,Math.max(),max(),maximum(),highest(),1
+JavaScript,What is the purpose of the 'break' statement?,To exit a loop,To continue a loop,To define a function,To declare a variable,1
+JavaScript,Which method is used to sort an array?,sort(),order(),arrange(),organize(),1
+JavaScript,What is the purpose of the 'continue' statement?,To skip the current iteration,To exit a loop,To define a function,To declare a variable,1
+JavaScript,Which method is used to split a string?,split(),divide(),separate(),break(),1
+JavaScript,What is the purpose of the 'arrow function'?,To create concise functions,To define classes,To create loops,To declare variables,1
+JavaScript,Which method is used to check if an array includes an element?,includes(),contains(),has(),exists(),1
+JavaScript,What is the purpose of the 'null' value?,To represent absence of value,To create objects,To define functions,To declare variables,1
+JavaScript,Which method is used to get the current date?,new Date(),Date.now(),getDate(),currentDate(),1
+JavaScript,What is the purpose of the 'undefined' value?,To represent uninitialized variables,To create objects,To define functions,To declare variables,1
+JavaScript,Which method is used to remove array elements?,splice(),remove(),delete(),extract(),1
+JavaScript,What is the purpose of the 'typeof' operator?,To check data type,To create objects,To define functions,To declare variables,1
+JavaScript,Which method is used to convert string to lowercase?,toLowerCase(),lower(),small(),down(),1
+JavaScript,What is the purpose of the 'this' keyword?,To refer to current object,To create objects,To define functions,To declare variables,1
+JavaScript,Which method is used to get array length?,length,size(),count(),getLength(),1
+JavaScript,What is the purpose of the 'let' keyword?,To declare block-scoped variables,To declare global variables,To declare constants,To declare functions,1
+JavaScript,Which method is used to find the index of an element in an array?,indexOf(),findIndex(),search(),locate(),1
+JavaScript,What is the purpose of the 'const' keyword?,To declare constants,To declare variables,To define functions,To create objects,1
+JavaScript,Which operator is used to concatenate strings?,+,.,concat(),join(),1
+JavaScript,What is the purpose of the 'switch' statement?,To execute different code based on conditions,To create loops,To define functions,To declare variables,1
+JavaScript,Which method is used to trim whitespace from a string?,trim(),strip(),clean(),clear(),1
+JavaScript,What is the purpose of the 'map' method?,To create a new array by applying a function to each element,To filter elements in an array,To reduce elements in an array,To sort elements in an array,1
+JavaScript,Which method is used to convert an array to a string?,toString(),join(),convert(),arrayToString(),1
+JavaScript,What is the purpose of the 'filter' method?,To create a new array with elements that pass a test,To sort an array,To map elements,To reduce an array,1
+JavaScript,Which method is used to get the first element of an array?,shift(),first(),getFirst(),head(),1
+JavaScript,What is the purpose of the 'reduce' method?,To reduce an array to a single value,To filter elements,To map elements,To sort elements,1
+JavaScript,Which method is used to create a new array with elements that pass a test?,filter(),map(),reduce(),every(),1
+JavaScript,What is the purpose of the 'every' method?,To test if all elements pass a test,To test if any element passes a test,To create a new array,To sort elements,1
+JavaScript,Which method is used to check if an array is empty?,isEmpty(),length,checkEmpty(),isArrayEmpty(),1
+JavaScript,What is the purpose of the 'some' method?,To test if at least one element passes a test,To test if all elements pass a test,To create a new array,To sort elements,1
+JavaScript,Which method is used to create a shallow copy of an array?,slice(),copy(),duplicate(),clone(),1
+JavaScript,What is the purpose of the 'find' method?,To return the first element that satisfies a condition,To find the index of an element,To filter elements,To sort elements,1
+JavaScript,Which method is used to get the last element of an array?,pop(),last(),getLast(),tail(),1
+JavaScript,What is the purpose of the 'includes' method?,To check if an array contains a specific element,To find the index of an element,To filter elements,To sort elements,1
+JavaScript,Which method is used to create a new object from an existing object?,Object.assign(),Object.create(),Object.clone(),Object.copy(),1
+JavaScript,What is the purpose of the 'bind' method?,To create a new function with a specific context,To bind variables,To create closures,To define functions,1
+JavaScript,Which method is used to convert an object to a JSON string?,JSON.stringify(),JSON.parse(),JSON.convert(),JSON.toString(),1
+JavaScript,What is the purpose of the 'parseInt' function?,To convert a string to an integer,To convert a string to a float,To parse JSON,To convert a number to a string,1
+JavaScript,Which method is used to get the keys of an object?,Object.keys(),getKeys(),keys(),listKeys(),1
+JavaScript,What is the purpose of the 'setTimeout' function?,To execute a function after a specified delay,To execute a function immediately,To create a loop,To define a function,1
+JavaScript,Which method is used to get the values of an object?,Object.values(),getValues(),values(),listValues(),1
+JavaScript,What is the purpose of the 'setInterval' function?,To execute a function repeatedly at specified intervals,To execute a function once,To create a loop,To define a function,1
+JavaScript,Which method is used to remove a property from an object?,delete,remove(),clear(),unset(),1
+JavaScript,What is the purpose of the 'Promise' object?,To handle asynchronous operations,To create synchronous operations,To define functions,To declare variables,1
+JavaScript,Which method is used to resolve a promise?,resolve(),then(),catch(),finally(),1
+JavaScript,What is the purpose of the 'async' keyword?,To define an asynchronous function,To create a synchronous function,To declare a variable,To define a class,1
+JavaScript,Which method is used to wait for a promise to resolve?,await(),then(),catch(),finally(),1
+JavaScript,What is the purpose of the 'fetch' function?,To make network requests,To handle promises,To create a loop,To define a function,1
+JavaScript,Which method is used to convert a JSON string to an object?,JSON.parse(),JSON.stringify(),JSON.convert(),JSON.toObject(),1
+JavaScript,What is the purpose of the 'localStorage' object?,To store data in the browser,To create cookies,To manage sessions,To handle network requests,1
+JavaScript,Which method is used to clear all items from local storage?,localStorage.clear(),localStorage.removeAll(),localStorage.delete(),localStorage.empty(),1
+JavaScript,What is the purpose of the 'sessionStorage' object?,To store data for the duration of the page session,To store data permanently,To create cookies,To handle network requests,1
+JavaScript,Which method is used to get the current URL?,window.location.href,window.url,document.url,document.location,1
+JavaScript,What is the purpose of the 'window' object?,To represent the browser window,To create a new object,To define functions,To declare variables,1
+JavaScript,Which method is used to scroll to a specific element?,scrollTo(),scroll(),scrollIntoView(),moveTo(),1
+JavaScript,What is the purpose of the 'event' object?,To represent events in the browser,To create new events,To handle asynchronous operations,To define functions,1
+JavaScript,Which method is used to prevent the default action of an event?,event.preventDefault(),event.stopPropagation(),event.cancel(),event.prevent(),1
+JavaScript,What is the purpose of the 'addEventListener' method?,To attach an event handler to an element,To remove an event handler,To create a new event,To define a function,1
+JavaScript,Which method is used to remove an event listener?,removeEventListener(),detachEvent(),deleteEvent(),clearEvent(),1
+JavaScript,What is the purpose of the 'DOMContentLoaded' event?,To execute code when the HTML document is fully loaded,To execute code when the page is fully loaded,To create a new event,To define a function,1
+JavaScript,Which method is used to create a new HTML element?,document.createElement(),document.newElement(),document.addElement(),document.makeElement(),1
+JavaScript,What is the purpose of the 'innerHTML' property?,To get or set the HTML content of an element,To get or set the text content of an element,To create a new element,To define a function,1
+JavaScript,Which method is used to append a child element to a parent element?,appendChild(),addChild(),insertChild(),append(),1
+JavaScript,What is the purpose of the 'style' property?,To get or set the CSS styles of an element,To create a new style,To define a function,To declare a variable,1
+JavaScript,Which method is used to get the computed style of an element?,getComputedStyle(),getStyle(),getElementStyle(),computedStyle(),1
+JavaScript,What is the purpose of the 'setAttribute' method?,To set an attribute on an element,To get an attribute from an element,To remove an attribute from an element,To create a new attribute,1
+JavaScript,Which method is used to remove an attribute from an element?,removeAttribute(),deleteAttribute(),clearAttribute(),unsetAttribute(),1
+JavaScript,What is the purpose of the 'classList' property?,To manage classes of an element,To create a new class,To define a function,To declare a variable,1
+JavaScript,Which method is used to add a class to an element?,classList.add(),addClass(),appendClass(),insertClass(),1
+JavaScript,What is the purpose of the 'toggle' method in classList?,To add or remove a class,To check if a class exists,To get the class name,To set a class,1
+JavaScript,Which method is used to get the parent element of an element?,parentNode(),getParent(),findParent(),getParentElement(),1
+JavaScript,What is the purpose of the 'querySelector' method?,To select the first matching element,To select all matching elements,To create a new element,To define a function,1
+JavaScript,Which method is used to select all matching elements?,querySelectorAll(),selectAll(),getElements(),findAll(),1
+JavaScript,What is the purpose of the 'setTimeout' function?,To execute a function after a specified delay,To execute a function repeatedly,To create a loop,To define a function,1
+JavaScript,Which method is used to clear a timeout?,clearTimeout(),stopTimeout(),cancelTimeout(),removeTimeout(),1
+JavaScript,What is the purpose of the 'setInterval' function?,To execute a function repeatedly at specified intervals,To execute a function once,To create a loop,To define a function,1
+JavaScript,Which method is used to clear an interval?,clearInterval(),stopInterval(),cancelInterval(),removeInterval(),1
+JavaScript,What is the purpose of the 'Math.random()' function?,To generate a random number between 0 and 1,To generate a random integer,To generate a random string,To generate a random array,1
+JavaScript,Which method is used to round a number to the nearest integer?,Math.round(),Math.floor(),Math.ceil(),Math.trunc(),1
+JavaScript,What is the purpose of the 'Math.max()' function?,To find the maximum value among numbers,To find the minimum value among numbers,To calculate the average,To sum numbers,1
+JavaScript,Which method is used to get the absolute value of a number?,Math.abs(),Math.absolute(),Math.value(),Math.getValue(),1
+JavaScript,What is the purpose of the 'Math.pow()' function?,To raise a number to a power,To calculate the square root,To find the logarithm,To calculate the sine,1
+JavaScript,Which method is used to get the square root of a number?,Math.sqrt(),Math.square(),Math.root(),Math.getSquare(),1
+JavaScript,What is the purpose of the 'Math.floor()' function?,To round down to the nearest integer,To round up to the nearest integer,To round to the nearest integer,To truncate a number,1
+JavaScript,Which method is used to get the current timestamp?,Date.now(),new Date(),getCurrentTime(),currentTimestamp(),1
+C++,What is the purpose of the 'static' keyword in C++?,To limit the scope of a variable,To create a global variable,To allocate memory dynamically,To define a constant,1
+C++,Which operator is used to dereference a pointer in C++?,*,&,->,::,1
+C++,What is the correct way to define a destructor in C++?,~ClassName(),ClassName()~,ClassName::~(),delete ClassName(),1
+C++,Which keyword is used to define a class template in C++?,template,class,typename,struct,1
+C++,What is the purpose of the 'const' keyword in C++?,To define constant variables,To prevent function overriding,To create constant pointers,To declare constant member functions,1
+C++,Which STL container allows duplicate elements?,list,set,map,unordered_set,1
+C++,What is the correct way to initialize a pointer in C++?,int* ptr = nullptr;,int* ptr = 0;,int* ptr = NULL;,All of the above,1
+C++,What is the purpose of the 'override' keyword in C++?,To indicate a function overrides a base class function,To prevent function overriding,To create a new function,To define a constant,1
+C++,Which operator is used to perform member access in C++?,.,->,::,*,1
+C++,What is the purpose of the 'sizeof' operator in C++?,To get the size of a data type or object,To allocate memory,To define a constant,To create a new object,1
+C++,Which keyword is used to define an abstract class in C++?,virtual,abstract,pure,final,1
+C++,What is the correct way to declare a multi-dimensional array in C++?,int arr[3][4],int arr(3)(4),int arr{3,4},int arr<3,4>,1
+C++,What is the purpose of the 'volatile' keyword in C++?,To prevent compiler optimization,To define constant variables,To create global variables,To declare member functions,1
+C++,Which STL container is implemented as a doubly linked list?,list,vector,deque,set,1
+C++,What is the correct way to declare a function pointer in C++?,returnType (*ptr)(parameterTypes),returnType ptr(parameterTypes),returnType ptr*,returnType &ptr(parameterTypes),1
+C++,What is the purpose of the 'namespace' keyword in C++?,To avoid name collisions,To define a class,To create a function,To declare a variable,1
+C++,Which operator is used for member access in a class?,.,->,::,*,1
+C++,What is the correct way to define a constant expression in C++?,constexpr int x = 10;,const int x = 10;,static const int x = 10;,All of the above,1
+C++,What is the purpose of the 'extern' keyword in C++?,To declare a variable defined in another file,To define a global variable,To create a constant,To declare a function,1
+C++,Which keyword is used to define a lambda function in C++?,lambda,[](),function,auto,1
+C++,What is the correct way to declare a union in C++?,union UnionName { int x; float y; };,struct UnionName { int x; float y; };,class UnionName { int x; float y; };,union UnionName: { int x; float y; };,1
+C++,What is the purpose of the 'friend' function in C++?,To allow access to private members of a class,To create relationships between classes,To inherit properties,To share memory,1
+C++,Which operator is used for dynamic memory deallocation in C++?,delete,free,remove,dispose,1
+C++,What is the correct way to declare a copy constructor in C++?,ClassName(const ClassName &obj),ClassName(ClassName obj),ClassName(ClassName &obj),ClassName(ClassName obj = nullptr),1
+C++,What is the purpose of the 'static_cast' operator in C++?,To perform safe type conversions,To perform unsafe type conversions,To cast pointers,To cast references,1
+C++,Which keyword is used to define a template class in C++?,template,class,typename,struct,1
+C++,What is the correct way to declare a move constructor in C++?,ClassName(ClassName &&obj),ClassName(ClassName obj),ClassName(ClassName &obj),ClassName(ClassName obj = nullptr),1
+C++,What is the purpose of the 'dynamic_cast' operator in C++?,To safely cast pointers and references in inheritance hierarchies,To perform unsafe type conversions,To cast references,To cast values,1
+C++,Which STL container is used for implementing a stack?,stack,queue,deque,vector,1
+C++,What is the correct way to declare a bit field in C++?,struct { int x: 1; int y: 1; },struct { int x; int y; },struct { int x[1]; int y[1]; },struct { int x; int y; } : 1;,1
+C++,What is the purpose of the 'reinterpret_cast' operator in C++?,To perform low-level type conversions,To perform safe type conversions,To cast pointers,To cast references,1
+C++,Which keyword is used to define a class member function outside the class definition?,inline,static,extern,public,1
+C++,What is the correct way to declare a default constructor in C++?,ClassName() = default;,ClassName() {},ClassName() = 0;,ClassName() = new ClassName();,1
+C++,What is the purpose of the 'const_cast' operator in C++?,To cast away constness,To perform safe type conversions,To cast pointers,To cast references,1
+C++,Which STL algorithm is used for searching?,find,search,locate,check,1
+C++,What is the correct way to declare a nested class in C++?,class Outer { class Inner {}; },class Outer { Inner {}; },class Outer::Inner {},class Outer.Inner {},1
+C++,What is the purpose of the 'volatile' keyword in C++?,To prevent compiler optimization,To define constant variables,To create global variables,To declare member functions,1
+C++,Which keyword is used to define a destructor in C++?,~ClassName,ClassName~,ClassName::~,delete ClassName,1
+C++,What is the correct way to declare a multi-dimensional array in C++?,int arr[3][4],int arr(3)(4),int arr{3,4},int arr<3,4>,1
+C++,What is the purpose of the 'static' keyword in C++?,To limit the scope of a variable,To create a global variable,To allocate memory dynamically,To define a constant,1
+C++,Which operator is used to dereference a pointer in C++?,*,&,->,::,1
+C++,What is the correct way to define a destructor in C++?,~ClassName(),ClassName()~,ClassName::~(),delete ClassName(),1
+C++,Which keyword is used to define a class template in C++?,template,class,typename,struct,1
+C++,What is the purpose of the 'const' keyword in C++?,To define constant variables,To prevent function overriding,To create constant pointers,To declare constant member functions,1
+C++,Which STL container allows duplicate elements?,list,set,map,unordered_set,1
+C++,What is the correct way to initialize a pointer in C++?,int* ptr = nullptr;,int* ptr = 0;,int* ptr = NULL;,All of the above,1
+C++,What is the purpose of the 'override' keyword in C++?,To indicate a function overrides a base class function,To prevent function overriding,To create a new function,To define a constant,1
+C++,Which operator is used for member access in a class?,.,->,::,*,1
+C++,What is the purpose of the 'sizeof' operator in C++?,To get the size of a data type or object,To allocate memory,To define a constant,To create a new object,1
+C++,Which keyword is used to define an abstract class in C++?,virtual,abstract,pure,final,1
+C++,What is the correct way to declare a multi-dimensional array in C++?,int arr[3][4],int arr(3)(4),int arr{3,4},int arr<3,4>,1
+C++,What is the purpose of the 'volatile' keyword in C++?,To prevent compiler optimization,To define constant variables,To create global variables,To declare member functions,1
+C++,Which STL container is implemented as a doubly linked list?,list,vector,deque,set,1
+C++,What is the correct way to declare a function pointer in C++?,returnType (*ptr)(parameterTypes),returnType ptr(parameterTypes),returnType ptr*,returnType &ptr(parameterTypes),1
+C++,What is the purpose of the 'namespace' keyword in C++?,To avoid name collisions,To define a class,To create a function,To declare a variable,1
+C++,Which operator is used for member access in a class?,.,->,::,*,1
+C++,What is the correct way to define a constant expression in C++?,constexpr int x = 10;,const int x = 10;,static const int x = 10;,All of the above,1
+C++,What is the purpose of the 'extern' keyword in C++?,To declare a variable defined in another file,To define a global variable,To create a constant,To declare a function,1
+C++,Which keyword is used to define a lambda function in C++?,lambda,[](),function,auto,1
+C++,What is the correct way to declare a union in C++?,union UnionName { int x; float y; };,struct UnionName { int x; float y; };,class UnionName { int x; float y; };,union UnionName: { int x; float y; };,1
+C++,What is the purpose of the 'friend' function in C++?,To allow access to private members of a class,To create relationships between classes,To inherit properties,To share memory,1
+C++,Which operator is used for dynamic memory deallocation in C++?,delete,free,remove,dispose,1
+C++,What is the correct way to declare a copy constructor in C++?,ClassName(const ClassName &obj),ClassName(ClassName obj),ClassName(ClassName &obj),ClassName(ClassName obj = nullptr),1
+C++,What is the purpose of the 'static_cast' operator in C++?,To perform safe type conversions,To perform unsafe type conversions,To cast pointers,To cast references,1
+C++,Which keyword is used to define a template class in C++?,template,class,typename,struct,1
+C++,What is the correct way to declare a move constructor in C++?,ClassName(ClassName &&obj),ClassName(ClassName obj),ClassName(ClassName &obj),ClassName(ClassName obj = nullptr),1
+C++,What is the purpose of the 'dynamic_cast' operator in C++?,To safely cast pointers and references in inheritance hierarchies,To perform unsafe type conversions,To cast references,To cast values,1
+C++,Which STL container is used for implementing a stack?,stack,queue,deque,vector,1
+C++,What is the correct way to declare a bit field in C++?,struct { int x: 1; int y: 1; },struct { int x; int y; },struct { int x[1]; int y[1]; },struct { int x; int y; } : 1;,1
+C++,Which keyword is used to create a class in C++?,class,struct,object,type,1
+C++,What is the correct way to declare a pointer in C++?,int* ptr,int ptr*,ptr int,pointer int,1
+C++,Which operator is used for dynamic memory allocation in C++?,new,malloc,alloc,create,1
+C++,What is the purpose of the 'delete' keyword in C++?,To deallocate memory,To remove a variable,To delete a file,To erase data,1
+C++,Which header file is needed for input/output operations in C++?,iostream,stdio.h,conio.h,stdlib.h,1
+C++,What is the correct way to include a header file in C++?,#include <filename>,#include "filename",import filename,using filename,1
+C++,Which access specifier makes class members accessible only within the class?,private,public,protected,internal,1
+C++,What is the correct syntax for a constructor in C++?,ClassName(),~ClassName(),new ClassName(),init ClassName(),1
+C++,Which operator is used to access members of a class through a pointer?,->,.,::,*,1
+C++,What is the purpose of the 'this' pointer in C++?,To refer to the current object,To create a new object,To point to parent class,To reference static members,1
+C++,Which STL container provides dynamic array functionality in C++?,vector,list,map,set,1
+C++,What is the correct way to declare a reference variable in C++?,int& ref = var,int ref = &var,ref int = var,&int ref = var,1
+C++,Which keyword is used to prevent function overriding in C++?,final,sealed,static,const,1
+C++,What is the correct syntax for function overloading in C++?,Same name, different parameters,Different names, same parameters,Same name and parameters,Different names and parameters,1
+C++,Which operator is used for namespace resolution in C++?,::,:,.,->,1
+C++,What is the purpose of the 'virtual' keyword in C++?,To enable polymorphism,To create abstract classes,To prevent inheritance,To make functions inline,1
+C++,Which STL container stores elements in key-value pairs?,map,vector,list,queue,1
+C++,What is the correct way to declare a constant in C++?,const int x,constant int x,int const x,final int x,1
+C++,Which keyword is used to handle exceptions in C++?,try,catch,throw,finally,1
+C++,What is the purpose of the 'friend' keyword in C++?,To allow access to private members,To create relationships between classes,To inherit properties,To share memory,1
+C++,Which operator is used for type casting in C++?,static_cast,dynamic_cast,reinterpret_cast,const_cast,1
+C++,What is the correct way to declare a pure virtual function in C++?,virtual void func() = 0,pure virtual void func(),abstract void func(),void func() pure,1
+C++,Which STL container follows FIFO principle?,queue,stack,vector,deque,1
+C++,What is the purpose of the 'inline' keyword in C++?,To suggest compiler to expand function,To make function global,To prevent recursion,To optimize loops,1
+C++,Which header file is needed for string operations in C++?,string,cstring,string.h,stdlib.h,1
+C++,What is the correct way to declare a template function in C++?,template <typename T>,template <class T>,generic <typename T>,template <T>,1
+C++,Which operator is used to access members of a namespace?,::,:,.,->,1
+C++,What is the purpose of the 'mutable' keyword in C++?,To allow modification of const members,To make variables thread-safe,To prevent copying,To enable optimization,1
+C++,Which STL algorithm is used for sorting?,sort,order,arrange,organize,1
+C++,What is the purpose of the 'static' keyword when used with a member function in C++?,To allow the function to be called without an instance of the class,To limit the function's scope,To define a constant function,To create a virtual function,1
+C++,What is the correct way to declare a static member variable in C++?,static int x; inside class,int static x; inside class,static int x; outside class,int x static; inside class,1
+Data Science,What is the primary purpose of data preprocessing?,To clean and prepare data,To visualize data,To analyze data,To store data,1
+Data Science,Which algorithm is commonly used for classification tasks?,K-means,Linear Regression,Decision Trees,Principal Component Analysis,3
+Data Science,What does 'overfitting' refer to in machine learning?,Model performs well on training data but poorly on unseen data,Model performs well on unseen data,Model is too simple,Model is too complex,1
+Data Science,What is the purpose of cross-validation?,To improve model accuracy,To reduce overfitting,To increase training time,To simplify the model,2
+Data Science,Which metric is used to evaluate classification models?,Mean Squared Error,Accuracy,Silhouette Score,Root Mean Squared Error,2
+Data Science,What is a confusion matrix used for?,To visualize model performance,To store data,To preprocess data,To clean data,1
+Data Science,Which of the following is a supervised learning algorithm?,K-means,Hierarchical Clustering,Support Vector Machines,Principal Component Analysis,3
+Data Science,What does PCA stand for?,Principal Component Analysis,Partial Component Analysis,Primary Component Analysis,Preliminary Component Analysis,1
+Data Science,What is the main goal of clustering?,To group similar data points,To predict outcomes,To classify data,To reduce dimensionality,1
+Data Science,Which library is commonly used for data manipulation in Python?,NumPy,Matplotlib,Pandas,Scikit-learn,3
+Data Science,What is the purpose of feature scaling?,To normalize data,To increase data size,To reduce data size,To visualize data,1
+Data Science,Which of the following is a regression algorithm?,K-means,Logistic Regression,Random Forest,Support Vector Machines,2
+Data Science,What is the purpose of a validation set?,To tune model parameters,To train the model,To test the model,To preprocess data,1
+Data Science,What does 'bias' refer to in machine learning?,Error due to overly simplistic assumptions,Error due to noise in data,Error due to model complexity,Error due to lack of data,1
+Data Science,Which technique is used to handle missing data?,Imputation,Normalization,Standardization,Encoding,1
+Data Science,What is the purpose of a ROC curve?,To evaluate classification performance,To visualize data,To preprocess data,To reduce dimensionality,1
+Data Science,Which of the following is an unsupervised learning algorithm?,Linear Regression,Logistic Regression,K-means,Decision Trees,3
+Data Science,What is the main advantage of using ensemble methods?,Improved accuracy,Reduced complexity,Increased interpretability,Lower computational cost,1
+Data Science,What does 'dimensionality reduction' achieve?,Reduces the number of features,Increases the number of features,Improves model accuracy,Reduces training time,1
+Data Science,Which of the following is a common data visualization library in Python?,Pandas,NumPy,Matplotlib,Scikit-learn,3
+Data Science,What is the purpose of regularization?,To prevent overfitting,To increase model complexity,To improve training speed,To reduce data size,1
+Data Science,What is a common method for feature selection?,Recursive Feature Elimination,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What does 'ensemble learning' refer to?,Combining multiple models to improve performance,Using a single model,Reducing data size,Visualizing data,1
+Data Science,Which of the following is a type of neural network?,Convolutional Neural Network,Linear Regression,Decision Tree,Support Vector Machine,1
+Data Science,What is the purpose of the 'train-test split'?,To evaluate model performance,To preprocess data,To visualize data,To clean data,1
+Data Science,What is the main goal of A/B testing?,To compare two versions of a variable,To train a model,To visualize data,To preprocess data,1
+Data Science,What is the purpose of data augmentation?,To increase the size of the training dataset,To reduce overfitting,To improve model accuracy,To visualize data,1
+Data Science,What does 'hyperparameter tuning' involve?,Optimizing model parameters,Training the model,Testing the model,Preprocessing data,1
+Data Science,Which of the following is a common method for data encoding?,One-Hot Encoding,Data Normalization,Data Imputation,Data Scaling,1
+Data Science,What is the purpose of a loss function?,To measure model performance,To visualize data,To preprocess data,To clean data,1
+Data Science,What is the purpose of exploratory data analysis (EDA)?,To summarize main characteristics of data,To train a model,To visualize data,To preprocess data,1
+Data Science,Which technique is used to evaluate the importance of features?,Feature Importance,Feature Scaling,Feature Encoding,Feature Selection,1
+Data Science,What is the purpose of the F1 score?,To balance precision and recall,To measure accuracy,To evaluate regression models,To visualize data,1
+Data Science,Which of the following is a common method for outlier detection?,Z-score,Normalization,Standardization,Encoding,1
+Data Science,What does 'k-fold cross-validation' involve?,Dividing data into k subsets for training and validation,Using all data for training,Using a single split for validation,Randomly selecting data points,1
+Data Science,What is the purpose of the learning curve?,To visualize model performance over time,To evaluate feature importance,To preprocess data,To clean data,1
+Data Science,Which algorithm is commonly used for time series forecasting?,ARIMA,Linear Regression,K-means,Decision Trees,1
+Data Science,What is the purpose of the silhouette score?,To measure clustering quality,To evaluate regression performance,To visualize data,To preprocess data,1
+Data Science,Which of the following is a type of supervised learning?,Classification,Clustering,Association,Dimensionality Reduction,1
+Data Science,What is the purpose of the gradient descent algorithm?,To minimize the loss function,To maximize accuracy,To preprocess data,To visualize data,1
+Data Science,Which library is commonly used for machine learning in Python?,Scikit-learn,NumPy,Pandas,Matplotlib,1
+Data Science,What is the purpose of the 'train' dataset?,To train the model,To evaluate model performance,To visualize data,To preprocess data,1
+Data Science,What does 'feature engineering' involve?,Creating new features from existing data,Normalizing data,Encoding categorical variables,Reducing dimensionality,1
+Data Science,Which of the following is a common method for model evaluation?,Cross-validation,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'test' dataset?,To evaluate model performance,To train the model,To visualize data,To preprocess data,1
+Data Science,Which metric is used to evaluate regression models?,R-squared,Accuracy,Precision,Recall,1
+Data Science,What is the purpose of the 'confusion matrix'?,To visualize classification performance,To preprocess data,To clean data,To store data,1
+Data Science,Which of the following is a common method for data normalization?,Min-Max Scaling,Z-score Normalization,Log Transformation,All of the above,1
+Data Science,What is the purpose of the 'validation' dataset?,To tune model parameters,To train the model,To evaluate model performance,To preprocess data,1
+Data Science,Which algorithm is commonly used for dimensionality reduction?,t-SNE,Linear Regression,Decision Trees,Random Forest,1
+Data Science,What is the purpose of the 'AUC-ROC curve'?,To evaluate classification performance,To visualize data,To preprocess data,To reduce dimensionality,1
+Data Science,Which of the following is a common method for handling categorical variables?,Label Encoding,One-Hot Encoding,Ordinal Encoding,All of the above,1
+Data Science,What is the purpose of the 'bagging' technique?,To reduce variance by combining multiple models,To increase bias,To visualize data,To preprocess data,1
+Data Science,Which of the following is a type of unsupervised learning?,Clustering,Regression,Classification,Time Series Analysis,1
+Data Science,What is the purpose of the 'mean absolute error' (MAE) metric?,To measure the average magnitude of errors,To measure accuracy,To evaluate classification models,To visualize data,1
+Data Science,Which technique is used to improve model performance by combining predictions from multiple models?,Ensemble Learning,Feature Engineering,Data Normalization,Data Imputation,1
+Data Science,What is the purpose of the 'k-nearest neighbors' algorithm?,To classify data points based on proximity,To reduce dimensionality,To visualize data,To preprocess data,1
+Data Science,Which of the following is a common method for time series analysis?,Moving Average,Linear Regression,Clustering,Classification,1
+Data Science,What is the purpose of the 'data pipeline'?,To automate data processing workflows,To visualize data,To clean data,To store data,1
+Data Science,Which of the following is a common method for model selection?,Grid Search,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'root mean squared error' (RMSE) metric?,To measure the average magnitude of errors,To measure accuracy,To evaluate classification models,To visualize data,1
+Data Science,Which algorithm is commonly used for anomaly detection?,Isolation Forest,Linear Regression,Decision Trees,Random Forest,1
+Data Science,What is the purpose of the 'data wrangling' process?,To clean and transform raw data into a usable format,To visualize data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for feature extraction?,Principal Component Analysis,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'data visualization' process?,To represent data graphically for better understanding,To clean data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for model evaluation?,Cross-Validation,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'data augmentation' technique?,To increase the size of the training dataset,To reduce overfitting,To improve model accuracy,To visualize data,1
+Data Science,Which of the following is a common method for handling imbalanced datasets?,SMOTE,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'feature importance' metric?,To evaluate the contribution of each feature to the model,To visualize data,To preprocess data,To clean data,1
+Data Science,Which of the following is a common method for model interpretability?,SHAP Values,LIME,Feature Importance,All of the above,1
+Data Science,What is the purpose of the 'data collection' process?,To gather data from various sources for analysis,To clean data,To visualize data,To store data,1
+Data Science,Which of the following is a common method for regression analysis?,Linear Regression,Logistic Regression,Decision Trees,Clustering,1
+Data Science,What is the purpose of the 'data exploration' process?,To understand the underlying patterns in the data,To clean data,To visualize data,To store data,1
+Data Science,Which of the following is a common method for model deployment?,Flask,Streamlit,FastAPI,All of the above,1
+Data Science,What is the purpose of the 'data ethics' concept?,To ensure responsible use of data,To visualize data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for handling outliers?,Z-score,Min-Max Scaling,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'data governance' process?,To manage data availability, usability, integrity, and security,To visualize data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for time series forecasting?,ARIMA,Linear Regression,Decision Trees,Clustering,1
+Data Science,What is the purpose of the 'data storytelling' concept?,To communicate insights from data effectively,To visualize data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for feature scaling?,Min-Max Scaling,Standardization,Z-score Normalization,All of the above,1
+Data Science,What is the purpose of the 'data pipeline' concept?,To automate data processing workflows,To visualize data,To clean data,To store data,1
+Data Science,Which of the following is a common method for model evaluation?,Cross-Validation,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'data augmentation' technique?,To increase the size of the training dataset,To reduce overfitting,To improve model accuracy,To visualize data,1
+Data Science,Which of the following is a common method for handling imbalanced datasets?,SMOTE,Data Normalization,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'feature importance' metric?,To evaluate the contribution of each feature to the model,To visualize data,To preprocess data,To clean data,1
+Data Science,Which of the following is a common method for model interpretability?,SHAP Values,LIME,Feature Importance,All of the above,1
+Data Science,What is the purpose of the 'data collection' process?,To gather data from various sources for analysis,To clean data,To visualize data,To store data,1
+Data Science,Which of the following is a common method for regression analysis?,Linear Regression,Logistic Regression,Decision Trees,Clustering,1
+Data Science,What is the purpose of the 'data exploration' process?,To understand the underlying patterns in the data,To clean data,To visualize data,To store data,1
+Data Science,Which of the following is a common method for model deployment?,Flask,Streamlit,FastAPI,All of the above,1
+Data Science,What is the purpose of the 'data ethics' concept?,To ensure responsible use of data,To visualize data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for handling outliers?,Z-score,Min-Max Scaling,Data Encoding,Data Imputation,1
+Data Science,What is the purpose of the 'data governance' process?,To manage data availability, usability, integrity, and security,To visualize data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for time series forecasting?,ARIMA,Linear Regression,Decision Trees,Clustering,1
+Data Science,What is the purpose of the 'data storytelling' concept?,To communicate insights from data effectively,To visualize data,To analyze data,To store data,1
+Data Science,Which of the following is a common method for feature scaling?,Min-Max Scaling,Standardization,Z-score Normalization,All of the above,1
+Data Science,What is the purpose of the 'data pipeline' in machine learning?,To automate the flow of data from collection to analysis,To visualize data,To clean data,To store data,1
+Data Science,Which of the following is a common method for feature extraction in text data?,TF-IDF,One-Hot Encoding,Min-Max Scaling,Label Encoding,1
+Data Science,What is the purpose of the 'confusion matrix' in classification tasks?,To evaluate the performance of a classification model,To visualize data,To preprocess data,To clean data,1
+Data Science,Which of the following is a common method for handling categorical variables in machine learning?,Label Encoding,One-Hot Encoding,Ordinal Encoding,All of the above,1
+Automata,What is the primary component of a finite automaton?,States,Transitions,Input symbols,Output symbols,1
+Automata,Which of the following is a type of automaton?,Finite Automaton,Pushdown Automaton,Turing Machine,All of the above,4
+Automata,What does a deterministic finite automaton (DFA) require?,Multiple transitions for a single input,Exactly one transition for each input,No transitions,Infinite states,2
+Automata,What is the language accepted by a finite automaton?,Regular language,Context-free language,Recursive language,Non-regular language,1
+Automata,What is the main difference between DFA and NFA?,DFA has multiple states for one input,NFA can have multiple transitions for one input,DFA is more complex than NFA,DFA cannot be minimized,2
+Automata,What does a Turing machine consist of?,Tape,Head,State,All of the above,4
+Automata,What is the purpose of the transition function in an automaton?,To define state changes,To define input symbols,To define output symbols,To define the tape,1
+Automata,Which of the following is true about context-free grammars?,They can generate regular languages,They can generate all languages,They can generate non-regular languages,They cannot generate any language,3
+Automata,What is the closure property of regular languages?,Closed under union,Closed under intersection,Closed under complementation,All of the above,4
+Automata,What is a pushdown automaton used for?,Recognizing regular languages,Recognizing context-free languages,Recognizing context-sensitive languages,Recognizing recursive languages,2
+Automata,What is the main feature of a non-deterministic finite automaton (NFA)?,It has a single state for each input,It can have multiple transitions for the same input,It cannot be minimized,It has no states,2
+Automata,What does the term "accepted language" refer to?,The set of strings accepted by an automaton,The set of strings rejected by an automaton,The set of all possible strings,The set of empty strings,1
+Automata,What is the significance of the start state in an automaton?,It is where processing begins,It is where processing ends,It is a final state,It is an accepting state,1
+Automata,What is a regular expression?,A sequence of symbols that defines a language,A type of automaton,A type of grammar,A method for parsing,1
+Automata,Which of the following can be represented by a finite automaton?,Regular languages,Context-free languages,Context-sensitive languages,All languages,1
+Automata,What is the role of the stack in a pushdown automaton?,To store input symbols,To store states,To store intermediate results,To store additional information,3
+Automata,What is the main limitation of finite automata?,They cannot count,They cannot recognize any language,They can only recognize context-free languages,They can only recognize regular languages,1
+Automata,What is the purpose of a transition diagram?,To visualize state transitions,To define input symbols,To define output symbols,To define the tape,1
+Automata,What is the language of a Turing machine?,Recursively enumerable languages,Regular languages,Context-free languages,All languages,1
+Automata,What does "deterministic" mean in the context of automata?,One state for each input,Multiple states for each input,No states,Infinite states,1
+Automata,What is the significance of final states in an automaton?,They indicate acceptance of input,They indicate rejection of input,They are the starting point,They are intermediate states,1
+Automata,What is a context-free language?,A language generated by a context-free grammar,A language generated by a regular grammar,A language that cannot be generated,All languages,1
+Automata,What is the pumping lemma used for?,To prove a language is regular,To prove a language is context-free,To prove a language is recursive,To prove a language is non-regular,1
+Automata,What is the main characteristic of a Turing machine?,It has a finite number of states,It can write on an infinite tape,It cannot accept any language,It has no input symbols,2
+Automata,What is the relationship between regular languages and context-free languages?,All regular languages are context-free,All context-free languages are regular,They are the same,They are unrelated,1
+Automata,What is the main purpose of a finite automaton?,To recognize patterns in strings,To generate strings,To parse strings,To store strings,1
+Automata,What does "closure under union" mean for languages?,The union of two languages is also in the language class,The intersection of two languages is also in the language class,The complement of a language is also in the language class,The concatenation of two languages is also in the language class,1
+Automata,What is the main function of a grammar in automata theory?,To define the syntax of a language,To define the semantics of a language,To define the structure of an automaton,To define the input symbols,1
+Automata,What is the significance of the empty string in automata?,It is accepted by all automata,It is never accepted,It is only accepted by finite automata,It is only accepted by Turing machines,1
+Automata,What is the main goal of automata theory?,To study the behavior of computational models,To study programming languages,To study algorithms,To study data structures,1
+Automata,What is the formal definition of a finite automaton?,A 5-tuple (Q, Σ, δ, q₀, F),A 4-tuple (Q, Σ, δ, q₀),A 6-tuple (Q, Σ, Γ, δ, q₀, F),A 3-tuple (Σ, δ, F),1
+Automata,What is the difference between a DFA and NFA in terms of power?,They recognize the same class of languages,NFA is more powerful,DFA is more powerful,None of the above,1
+Automata,Which theorem proves that NFAs and DFAs are equivalent in power?,Rabin-Scott theorem,Pumping lemma,Kleene's theorem,Myhill-Nerode theorem,1
+Automata,What is the purpose of ε-transitions in NFAs?,To allow state changes without input,To increase computational power,To reduce the number of states,To make the automaton deterministic,1
+Automata,What is the Myhill-Nerode theorem used for?,To prove a language is regular,To prove a language is context-free,To minimize DFAs,To construct NFAs,1
+Automata,What is the pumping lemma for regular languages used for?,To prove a language is not regular,To prove a language is regular,To construct DFAs,To minimize NFAs,1
+Automata,What is a Mealy machine?,An automaton with output on transitions,A DFA with no final states,A NFA with ε-transitions,A pushdown automaton,1
+Automata,What is a Moore machine?,An automaton with output on states,A DFA with no input alphabet,A NFA with multiple start states,A Turing machine with finite tape,1
+Automata,Which of these is not a regular language?,{aⁿbⁿ | n ≥ 0},{aⁿ | n ≥ 0},{a*b*},{ab},2
+Automata,What is the closure property of regular languages under concatenation?,Regular languages are closed under concatenation,Regular languages are not closed,Only NFAs are closed,Only DFAs are closed,1
+Automata,What is the minimal DFA for the language {ε}?,One state which is both initial and final,Two states - one initial and one final,One state which is initial but not final,No states are needed,1
+Automata,What is the extended transition function of a DFA?,δ*: Q × Σ* → Q,δ*: Q × Σ → Q,δ*: Q → Q,δ*: Σ* → Q,1
+Automata,What is the language accepted by a DFA with no final states?,The empty language,The language Σ*,All strings of length 1,No strings are accepted,1
+Automata,How many states are needed for a DFA recognizing L = {w | w contains an odd number of a's}?,2,3,4,1,1
+Automata,What is the purpose of state minimization in DFAs?,To create the smallest equivalent DFA,To convert to an NFA,To add ε-transitions,To make the DFA complete,1
+Automata,Which regular expression denotes all binary strings ending with 1?,(0+1)*1,(1+0)1*,(0+1)1,(0+1)*0,1
+Automata,What does the regular expression (∅)* denote?,{ε},∅,Σ*,{ε,∅},1
+Automata,Which of these is not a regular expression operation?,Reverse,Concatenation,Kleene star,Union,1
+Automata,What is the relationship between regular expressions and finite automata?,They describe the same class of languages,Regular expressions are more powerful,Finite automata are more powerful,They are incomparable,1
+Automata,What is the language of the regular expression a*ba*ba*?,Strings with exactly two b's,Strings with at least two b's,Strings with even number of b's,Strings starting and ending with b,1
+Automata,How many states are needed for an NFA recognizing L = {w | the third symbol is 1}?,4,3,5,2,1
+Automata,What is the characteristic of a minimal DFA?,It has the fewest states possible,It has no ε-transitions,It is complete,It has exactly one final state,1
+Automata,What is the procedure to convert an NFA to DFA called?,Subset construction,Powerset construction,State minimization,Transition closure,2
+Automata,Which of these is not part of a context-free grammar?,Input alphabet,Stack alphabet,Terminals,Non-terminals,2
+Automata,What is a derivation in context-free grammars?,A sequence of productions leading from start symbol to string,A path in a parse tree,A sequence of input symbols,None of the above,1
+Automata,What is the difference between leftmost and rightmost derivations?,Order in which non-terminals are replaced,Length of the derivation,Resulting parse tree,Functions used in derivation,1
+Automata,What is the pumping lemma for context-free languages used for?,To prove a language is not context-free,To prove a language is regular,To construct CFGs,To minimize PDAs,1
+Automata,What is the purpose of greibach normal form?,To restrict the form of productions,To make the grammar regular,To eliminate ε-productions,To make the grammar LL(1),1
+Automata,What is the relationship between regular and context-free languages?,All regular languages are context-free,All context-free languages are regular,They are the same,They are incomparable,1
+Automata,What is the stack used for in a PDA?,To remember context,To store input,To count symbols,To reject strings,1
+Automata,What is the difference between deterministic and non-deterministic PDAs?,Deterministic PDAs recognize fewer languages,They recognize the same languages,Non-deterministic PDAs cannot accept by final state,There is no difference,1
+Automata,What is the language of the grammar S → aSb | ε?,{aⁿbⁿ | n ≥ 0},{aⁿbⁿ | n > 0},{ab}*,{a*b*},1
+Automata,What is the purpose of Chomsky normal form?,To limit production forms for parsing,To make grammars regular,To eliminate terminals,To increase expressive power,1
+Automata,Which of these is not a valid production in Chomsky normal form?,A → a,S → ε,A → BC,A → B,2
+Automata,What is the CYK algorithm used for?,Parsing CFGs in CNF,Lexical analysis,NFA to DFA conversion,Regular expression matching,1
+Automata,What is an ambiguous grammar?,A grammar with multiple parse trees for some string,A grammar that cannot be parsed,A regular grammar,A grammar with ε-productions,1
+Automata,What is the purpose of a Turing machine as a recognizer?,To accept recursively enumerable languages,To accept only regular languages,To accept only CFGs,To reject all inputs,1
+Automata,What makes a Turing machine more powerful than a PDA?,An infinite read-write tape,A stack,A finite control,A read-only input tape,1
+Automata,What is the purpose of a universal Turing machine?,To simulate other Turing machines,To recognize all languages,To solve the halting problem,To parse context-free languages,1
+Automata,What is the halting problem?,Determining if a TM halts on given input,Determining if a DFA accepts a string,Parsing context-free grammars,Minimizing finite automata,1
+Automata,What is the Church-Turing thesis?,Any computable function can be computed by a TM,TMs can recognize all languages,TMs are equivalent to DFAs,TMs cannot solve undecidable problems,1
+Automata,What is the difference between recursively enumerable and recursive languages?,RE languages have TMs that halt on 'yes', recursive on all inputs,Recursive languages have TMs that halt on 'yes', RE on all inputs,There is no difference,RE languages are not computable,1
+Automata,What is the Post correspondence problem?,An undecidable problem about string matching,A problem about DFA minimization,A problem about CFG ambiguity,None of the above,1
+Automata,What is the purpose of a linear bounded automaton?,To recognize context-sensitive languages,To recognize regular languages,To recognize recursively enumerable languages,To recognize decidable languages,1
+Automata,What is a recursively enumerable language?,A language recognized by a TM,A language with a decider,A regular language,None of the above,1
+Automata,What is Rice's theorem about?,All non-trivial properties of RE languages are undecidable,All properties of TMs are undecidable,The halting problem is decidable,RE languages are closed under complement,1
+Automata,What is the complexity class P?,Problems solvable in polynomial time by a DTM,Problems verifiable in polynomial time,Problems solvable in exponential time,None of the above,1
+Automata,What is the complement of a regular language?,Also regular,Context-free,Recursive,RE but not recursive,1
+Automata,What is an inherently ambiguous language?,A CFL all of whose grammars are ambiguous,A CFL with no unambiguous grammars,A regular language with ambiguous CFG,None of the above,1
+Automata,What is a decidable language?,A language with a TM that always halts,A language accepted by a DFA,A CFL,A regular language,1
+Automata,What is the purpose of λ-closure in NFA to DFA conversion?,To find all states reachable via λ-transitions,To eliminate λ-transitions,To minimize states,To complete the transition function,1
+Automata,What is the difference between acceptance by final state and empty stack in PDAs?,The class of languages recognized is the same,Final state is more restrictive,Empty stack is more restrictive,They recognize complementary classes,1
+Automata,What is the significance of the two-stack PDA?,It is equivalent to a Turing machine,It recognizes only regular languages,It recognizes only DCFLs,None of the above,1
+Automata,What is the language { ww | w ∈ Σ* }?,Not context-free,Regular,Context-free but not regular,Recursive but not RE,1
+Automata,What is a simple transducer?,A finite state machine with output,A PDA with no stack,A Turing machine with finite tape,None of the above,1
+Automata,What is the difference between a Mealy and Moore machine?,Output placement - transitions vs states,Computational power,Number of states,Language recognition capability,1
+Automata,What is the purpose of a finite state transducer?,To implement regular relations,To recognize context-free languages,To compute recursive functions,None of the above,1
+Automata,What is a right-linear grammar?,A grammar where all productions are of form A→aB or A→a,A grammar that can only generate right-regular languages,A context-sensitive grammar,A grammar that generates palindromes,1
+Automata,What is the procedure to convert a regular grammar to FA?,Construct states for nonterminals,Create transitions from productions,Add final states for terminating productions,All of the above,4
+Automata,What is the significance of the Arden's lemma?,It helps solve regular expression equations,It proves CFGs are more powerful than RE,It provides a parsing algorithm,None of the above,1
+Automata,What is a complete DFA?,All transitions are defined for all symbols in all states,It accepts all strings,It has no unreachable states,It is minimal,1
+Automata,What is the language of a DFA with all states final?,Σ*,The empty language,The language of strings of prime length,None of the above,1
+Automata,What is the purpose of the transition graph in automata theory?,To visualize the automaton,To prove properties of languages,To measure complexity,None of the above,1
+Automata,What does it mean for a language to be star-free?,It can be defined without Kleene star,It cannot be regular,It is context-sensitive,It is finite,1
+Automata,What is the main characteristic of a context-sensitive grammar?,It can generate context-sensitive languages,It can generate regular languages,It can generate context-free languages,It has a finite number of productions,1
+Automata,What is the significance of the Chomsky hierarchy?,It classifies languages based on their generative power,It defines the complexity of algorithms,It categorizes automata types,It describes the relationship between languages,1
+Automata,What is the purpose of a transition function in a Turing machine?,To define how the machine moves between states based on input,To determine the final state,To define the tape symbols,To visualize the automaton,1
+Automata,What is the main limitation of a finite automaton?,It cannot use memory beyond its states,It cannot recognize regular languages,It cannot be minimized,It cannot accept any input,1
+Automata,What is the relationship between context-free languages and regular languages?,All context-free languages are regular,Some context-free languages are not regular,All regular languages are context-free,They are equivalent,2
+Automata,What is the significance of the empty string in formal languages?,It is accepted by all automata,It is never accepted,It is only accepted by finite automata,It is only accepted by Turing machines,1
+Syllogism,All cats are animals. Some animals are dogs. Therefore, some cats are dogs.,True,False,Not necessarily,All of the above,3
+Syllogism,No birds are mammals. All sparrows are birds. Therefore, no sparrows are mammals.,True,False,Not necessarily,All of the above,1
+Syllogism,Some fruits are apples. All apples are red. Therefore, some fruits are red.,True,False,Not necessarily,All of the above,1
+Syllogism,All humans are mortal. Socrates is a human. Therefore, Socrates is mortal.,True,False,Not necessarily,All of the above,1
+Syllogism,Some dogs are not pets. All pets are animals. Therefore, some dogs are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All roses are flowers. Some flowers are red. Therefore, some roses are red.,True,False,Not necessarily,All of the above,3
+Syllogism,No reptiles are mammals. All snakes are reptiles. Therefore, no snakes are mammals.,True,False,Not necessarily,All of the above,1
+Syllogism,Some cars are electric. All electric vehicles are eco-friendly. Therefore, some cars are eco-friendly.,True,False,Not necessarily,All of the above,1
+Syllogism,All teachers are educated. Some educated people are not teachers. Therefore, some educated people are not teachers.,True,False,Not necessarily,All of the above,1
+Syllogism,Some birds can fly. All eagles are birds. Therefore, all eagles can fly.,True,False,Not necessarily,All of the above,3
+Syllogism,All mammals are warm-blooded. Some warm-blooded animals are not mammals. Therefore, some mammals are not warm-blooded.,True,False,Not necessarily,All of the above,2
+Syllogism,No cats are dogs. All pets are cats. Therefore, no pets are dogs.,True,False,Not necessarily,All of the above,2
+Syllogism,Some students are scholars. All scholars are intelligent. Therefore, some students are intelligent.,True,False,Not necessarily,All of the above,1
+Syllogism,All fruits are healthy. Some unhealthy foods are not fruits. Therefore, some unhealthy foods are not healthy.,True,False,Not necessarily,All of the above,1
+Syllogism,All squares are rectangles. Some rectangles are not squares. Therefore, some squares are not rectangles.,True,False,Not necessarily,All of the above,2
+Syllogism,Some mammals are not dogs. All dogs are animals. Therefore, some mammals are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All cars are vehicles. Some vehicles are not cars. Therefore, some cars are not vehicles.,True,False,Not necessarily,All of the above,2
+Syllogism,No fish are mammals. All whales are mammals. Therefore, no whales are fish.,True,False,Not necessarily,All of the above,1
+Syllogism,Some flowers are not red. All roses are flowers. Therefore, some roses are not red.,True,False,Not necessarily,All of the above,2
+Syllogism,All dogs bark. Some animals that bark are not dogs. Therefore, some animals that bark are not dogs.,True,False,Not necessarily,All of the above,2
+Syllogism,All birds have wings. Some winged creatures are not birds. Therefore, some creatures with wings are not birds.,True,False,Not necessarily,All of the above,2
+Syllogism,Some teachers are not professors. All professors are educated. Therefore, some teachers are not educated.,True,False,Not necessarily,All of the above,2
+Syllogism,All triangles have three sides. Some shapes with three sides are not triangles. Therefore, some shapes with three sides are not triangles.,True,False,Not necessarily,All of the above,2
+Syllogism,Some pets are cats. All cats are animals. Therefore, some pets are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All humans are mortal. Some mortals are not humans. Therefore, some mortals are not human.,True,False,Not necessarily,All of the above,2
+Syllogism,No mammals lay eggs. All birds lay eggs. Therefore, no birds are mammals.,True,False,Not necessarily,All of the above,1
+Syllogism,Some cars are fast. All fast vehicles are not cars. Therefore, some cars are not fast.,True,False,Not necessarily,All of the above,2
+Syllogism,All students are learners. Some learners are not students. Therefore, some students are not learners.,True,False,Not necessarily,All of the above,2
+Syllogism,Some animals are not pets. All pets are animals. Therefore, some animals are not pets.,True,False,Not necessarily,All of the above,1
+Syllogism,All fruits are sweet. Some sweet things are not fruits. Therefore, some sweet things are not fruits.,True,False,Not necessarily,All of the above,2
+Syllogism,All squares are shapes. Some shapes are not squares. Therefore, some shapes are not squares.,True,False,Not necessarily,All of the above,2
+Syllogism,All mammals are animals. Some animals are not mammals. Therefore, some animals are not mammals.,True,False,Not necessarily,All of the above,2
+Syllogism,All trees are plants. Some plants are not trees. Therefore, some plants are not trees.,True,False,Not necessarily,All of the above,2
+Syllogism,Some vehicles are cars. All cars are vehicles. Therefore, some vehicles are cars.,True,False,Not necessarily,All of the above,1
+Syllogism,All birds are animals. Some animals are not birds. Therefore, some animals are not birds.,True,False,Not necessarily,All of the above,2
+Syllogism,No reptiles are birds. All snakes are reptiles. Therefore, no snakes are birds.,True,False,Not necessarily,All of the above,1
+Syllogism,Some fruits are bananas. All bananas are yellow. Therefore, some fruits are yellow.,True,False,Not necessarily,All of the above,1
+Syllogism,All cars are vehicles. Some vehicles are trucks. Therefore, some cars are trucks.,True,False,Not necessarily,All of the above,3
+Syllogism,All dogs are mammals. Some mammals are not dogs. Therefore, some mammals are not dogs.,True,False,Not necessarily,All of the above,2
+Syllogism,Some birds are not sparrows. All sparrows are birds. Therefore, some birds are not sparrows.,True,False,Not necessarily,All of the above,1
+Syllogism,All humans are primates. Some primates are not humans. Therefore, some primates are not humans.,True,False,Not necessarily,All of the above,2
+Syllogism,No cats are reptiles. All reptiles are animals. Therefore, no cats are animals.,True,False,Not necessarily,All of the above,2
+Syllogism,Some flowers are daisies. All daisies are flowers. Therefore, some flowers are daisies.,True,False,Not necessarily,All of the above,1
+Syllogism,All mammals are warm-blooded. Some warm-blooded animals are not mammals. Therefore, some mammals are not warm-blooded.,True,False,Not necessarily,All of the above,2
+Syllogism,All cars are fast. Some fast things are not cars. Therefore, some fast things are not cars.,True,False,Not necessarily,All of the above,2
+Syllogism,Some pets are dogs. All dogs are animals. Therefore, some pets are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All squares are rectangles. Some rectangles are not squares. Therefore, some squares are not rectangles.,True,False,Not necessarily,All of the above,2
+Syllogism,No mammals are reptiles. All reptiles are cold-blooded. Therefore, no mammals are cold-blooded.,True,False,Not necessarily,All of the above,2
+Syllogism,Some students are athletes. All athletes are fit. Therefore, some students are fit.,True,False,Not necessarily,All of the above,1
+Syllogism,All dogs are pets. Some pets are not dogs. Therefore, some pets are not dogs.,True,False,Not necessarily,All of the above,2
+Syllogism,All fish swim. Some swimming creatures are not fish. Therefore, some swimming creatures are not fish.,True,False,Not necessarily,All of the above,2
+Syllogism,Some mammals are not cats. All cats are animals. Therefore, some mammals are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All birds can fly. Some birds are penguins. Therefore, some penguins can fly.,True,False,Not necessarily,All of the above,3
+Syllogism,No dogs are cats. All pets are dogs. Therefore, no pets are cats.,True,False,Not necessarily,All of the above,2
+Syllogism,Some fruits are oranges. All oranges are citrus. Therefore, some fruits are citrus.,True,False,Not necessarily,All of the above,1
+Syllogism,All humans are mammals. Some mammals are not humans. Therefore, some mammals are not humans.,True,False,Not necessarily,All of the above,2
+Syllogism,Some cars are electric. All electric vehicles are eco-friendly. Therefore, some cars are eco-friendly.,True,False,Not necessarily,All of the above,1
+Syllogism,All rectangles are shapes. Some shapes are not rectangles. Therefore, some shapes are not rectangles.,True,False,Not necessarily,All of the above,2
+Syllogism,All flowers are plants. Some plants are not flowers. Therefore, some plants are not flowers.,True,False,Not necessarily,All of the above,2
+Syllogism,Some animals are not pets. All pets are animals. Therefore, some animals are not pets.,True,False,Not necessarily,All of the above,1
+Syllogism,All mammals are warm-blooded. Some warm-blooded animals are not mammals. Therefore, some mammals are not warm-blooded.,True,False,Not necessarily,All of the above,2
+Syllogism,No reptiles are mammals. All snakes are reptiles. Therefore, no snakes are mammals.,True,False,Not necessarily,All of the above,1
+Syllogism,Some students are not scholars. All scholars are intelligent. Therefore, some students are not intelligent.,True,False,Not necessarily,All of the above,2
+Syllogism,All cars are vehicles. Some vehicles are not cars. Therefore, some cars are not vehicles.,True,False,Not necessarily,All of the above,2
+Syllogism,All birds are animals. Some animals are not birds. Therefore, some animals are not birds.,True,False,Not necessarily,All of the above,2
+Syllogism,Some pets are cats. All cats are animals. Therefore, some pets are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All humans are mortal. Some mortals are not humans. Therefore, some mortals are not human.,True,False,Not necessarily,All of the above,2
+Syllogism,No mammals lay eggs. All birds lay eggs. Therefore, no birds are mammals.,True,False,Not necessarily,All of the above,1
+Syllogism,Some cars are fast. All fast vehicles are not cars. Therefore, some cars are not fast.,True,False,Not necessarily,All of the above,2
+Syllogism,All students are learners. Some learners are not students. Therefore, some students are not learners.,True,False,Not necessarily,All of the above,2
+Syllogism,Some animals are not pets. All pets are animals. Therefore, some animals are not pets.,True,False,Not necessarily,All of the above,1
+Syllogism,All fruits are sweet. Some sweet things are not fruits. Therefore, some sweet things are not fruits.,True,False,Not necessarily,All of the above,2
+Syllogism,All squares are shapes. Some shapes are not squares. Therefore, some shapes are not squares.,True,False,Not necessarily,All of the above,2
+Syllogism,All mammals are animals. Some animals are not mammals. Therefore, some animals are not mammals.,True,False,Not necessarily,All of the above,2
+Syllogism,All trees are plants. Some plants are not trees. Therefore, some plants are not trees.,True,False,Not necessarily,All of the above,2
+Syllogism,Some vehicles are cars. All cars are vehicles. Therefore, some vehicles are cars.,True,False,Not necessarily,All of the above,1
+Syllogism,All birds are animals. Some animals are not birds. Therefore, some animals are not birds.,True,False,Not necessarily,All of the above,2
+Syllogism,No reptiles are birds. All snakes are reptiles. Therefore, no snakes are birds.,True,False,Not necessarily,All of the above,1
+Syllogism,Some flowers are daisies. All daisies are flowers. Therefore, some flowers are daisies.,True,False,Not necessarily,All of the above,1
+Syllogism,All cars are fast. Some fast things are not cars. Therefore, some fast things are not cars.,True,False,Not necessarily,All of the above,2
+Syllogism,All mammals are warm-blooded. Some warm-blooded animals are not mammals. Therefore, some warm-blooded animals are not mammals.,True,False,Not necessarily,All of the above,2
+Syllogism,All dogs are pets. Some pets are not dogs. Therefore, some pets are not dogs.,True,False,Not necessarily,All of the above,2
+Syllogism,Some birds are not sparrows. All sparrows are birds. Therefore, some birds are not sparrows.,True,False,Not necessarily,All of the above,1
+Syllogism,All cats are animals. Some animals are not cats. Therefore, some animals are not cats.,True,False,Not necessarily,All of the above,2
+Syllogism,All flowers are plants. Some plants are not flowers. Therefore, some plants are not flowers.,True,False,Not necessarily,All of the above,2
+Syllogism,Some vehicles are trucks. All trucks are vehicles. Therefore, some vehicles are trucks.,True,False,Not necessarily,All of the above,1
+Syllogism,All humans are mammals. Some mammals are not humans. Therefore, some mammals are not humans.,True,False,Not necessarily,All of the above,2
+Syllogism,No reptiles are birds. All birds can fly. Therefore, no reptiles can fly.,True,False,Not necessarily,All of the above,2
+Syllogism,Some fruits are bananas. All bananas are fruits. Therefore, some fruits are bananas.,True,False,Not necessarily,All of the above,1
+Syllogism,All squares are rectangles. Some rectangles are not squares. Therefore, some squares are not rectangles.,True,False,Not necessarily,All of the above,2
+Syllogism,All mammals are animals. Some animals are not mammals. Therefore, some animals are not mammals.,True,False,Not necessarily,All of the above,2
+Syllogism,Some pets are cats. All cats are animals. Therefore, some pets are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All cars are vehicles. Some vehicles are not cars. Therefore, some vehicles are not cars.,True,False,Not necessarily,All of the above,2
+Syllogism,All birds can fly. Some flying creatures are not birds. Therefore, some flying creatures are not birds.,True,False,Not necessarily,All of the above,2
+Syllogism,Some mammals are not dogs. All dogs are animals. Therefore, some mammals are animals.,True,False,Not necessarily,All of the above,1
+Syllogism,All trees are plants. Some plants are not trees. Therefore, some plants are not trees.,True,False,Not necessarily,All of the above,2
+Syllogism,Some students are scholars. All scholars are intelligent. Therefore, some students are intelligent.,True,False,Not necessarily,All of the above,1
+Syllogism,All cars are fast. Some fast things are not cars. Therefore, some fast things are not cars.,True,False,Not necessarily,All of the above,2
+Syllogism,No mammals lay eggs. All birds lay eggs. Therefore, no birds are mammals.,True,False,Not necessarily,All of the above,1
+Syllogism,Some animals are not pets. All pets are animals. Therefore, some animals are not pets.,True,False,Not necessarily,All of the above,1
+Data Sufficiency,What is the primary purpose of data sufficiency questions?,To test mathematical skills,To assess decision-making ability,To evaluate data analysis skills,To measure coding proficiency,3
+Data Sufficiency,In data sufficiency questions, how many statements are typically given?,1,2,3,4,2
+Data Sufficiency,Which of these is NOT a possible answer choice in data sufficiency?,Statement 1 alone is sufficient,Statement 2 alone is sufficient,Both statements together are insufficient,Either statement is sufficient,3
+Data Sufficiency,What does it mean if both statements together are still insufficient?,The question cannot be answered,Another statement is needed,The data is contradictory,All options are correct,1
+Data Sufficiency,Which mathematical concept is most frequently tested in data sufficiency?,Algebra,Geometry,Calculus,Statistics,1
+Data Sufficiency,If Statement 1 solves the problem but Statement 2 doesn't, what is the correct answer?,Statement 1 alone is sufficient,Statement 2 alone is sufficient,Both statements are needed,Neither statement is sufficient,1
+Data Sufficiency,What should you avoid doing in data sufficiency questions?,Solving the problem completely,Analyzing each statement separately,Considering both statements together,Assuming information not given,1
+Data Sufficiency,Which section of competitive exams commonly includes data sufficiency?,Quantitative Aptitude,Verbal Ability,Logical Reasoning,Data Interpretation,3
+Data Sufficiency,What is the first step in solving data sufficiency problems?,Read the question carefully,Solve using Statement 1,Solve using Statement 2,Combine both statements,1
+Data Sufficiency,If the statements give contradictory information, what is the answer?,Statement 1 is sufficient,Statement 2 is sufficient,Both are insufficient,Either is sufficient,3
+Data Sufficiency,Which type of data is most commonly used in sufficiency questions?,Numerical,Categorical,Textual,Graphical,1
+Data Sufficiency,What does it mean if either statement alone is sufficient?,The answer is D,The answer is C,The answer is B,The answer is A,1
+Data Sufficiency,In banking exams, how many options do data sufficiency questions typically have?,3,4,5,6,2
+Data Sufficiency,Which of these is NOT a common data sufficiency question format?,Value comparison,Relationship determination,Equation solving,Programming concepts,4
+Data Sufficiency,If a question requires numerical value and Statement 1 gives ratio, what's needed?,Exact numbers,Additional ratio,Percentage,Any of these,1
+Data Sufficiency,What is a common mistake in data sufficiency?,Assuming data not given,Using both statements when unnecessary,Ignoring obvious solutions,All of the above,4
+Data Sufficiency,Which logical concept is crucial for data sufficiency?,Conditional reasoning,Deductive reasoning,Inductive reasoning,Abductive reasoning,2
+Data Sufficiency,How much time should be spent per data sufficiency question?,30 seconds,1 minute,2 minutes,5 minutes,2
+Data Sufficiency,What makes data sufficiency different from regular math problems?,Focus on solution process,Need for exact answer,Use of complex formulas,Requirement of pen and paper,1
+Data Sufficiency,Which section does data sufficiency NOT appear in?,GMAT,GRE,CAT,SAT,4
+Data Sufficiency,If a question asks "what is X?" and statements give X+Y and X-Y, which is sufficient?,Either statement alone,Both statements together,Only Statement 1,Only Statement 2,2
+Data Sufficiency,What is the key skill tested in data sufficiency?,Speed,Accuracy,Analysis,All of the above,4
+Data Sufficiency,How many variables can a typical data sufficiency question have?,1,2,3,Any number,4
+Data Sufficiency,What does "sufficient" mean in this context?,Complete answer,Partial answer,Approximate answer,Theoretical answer,1
+Data Sufficiency,Which topic is least likely in data sufficiency?,Number properties,Algebraic equations,Trigonometry,Data interpretation,3
+Data Sufficiency,What is the best strategy for data sufficiency?,Solve completely,Estimate quickly,Analyze sufficiency,Guess intelligently,3
+Data Sufficiency,If a question asks about probability and statements give different cases?,Check consistency,Combine probabilities,Choose higher probability,Calculate separately,1
+Data Sufficiency,How are statement-based questions different from direct questions?,More time-consuming,Test different skills,Require memorization,Need calculator,2
+Data Sufficiency,What percentage of logical reasoning section typically contains data sufficiency?,10%,25%,50%,75%,2
+Data Sufficiency,Which is more important in data sufficiency?,Mathematical ability,Logical reasoning,Data interpretation,All equally important,4
+Data Sufficiency,What is the primary goal of data sufficiency questions?,To determine if the data provided is enough to answer the question,To test mathematical skills,To assess reading comprehension,To evaluate logical reasoning skills,1
+Data Sufficiency,In data sufficiency questions, what is the typical format of the answer choices?,A, B, C, D, E,1
+Data Sufficiency,What does it indicate if both statements are sufficient?,The question can be answered with either statement alone,The question cannot be answered,Both statements provide the same information,Only one statement is needed,1
+Data Sufficiency,Which of the following is a common strategy for data sufficiency?,Eliminate answer choices,Use a calculator,Write down all calculations,Skip difficult questions,1
+Data Sufficiency,If Statement 1 provides a range and Statement 2 provides a specific value, what is the answer?,Statement 1 is sufficient,Statement 2 is sufficient,Both statements are needed,Neither statement is sufficient,2
+Data Sufficiency,What is the importance of understanding the question stem?,It helps identify what is being asked,It provides context for the statements,It determines the difficulty level,It is not important,1
+Data Sufficiency,In data sufficiency, what does "insufficient" mean?,The data does not provide a complete answer,The data is irrelevant,The data is contradictory,The data is incomplete,1
+Data Sufficiency,What is a common type of question in data sufficiency?,Finding the value of a variable,Determining a relationship,Calculating an average,All of the above,4
+Data Sufficiency,If a question asks for a specific value and Statement 1 gives a range, what should you do?,Use Statement 1,Use Statement 2,Combine both statements,Check if Statement 2 provides a specific value,4
+Data Sufficiency,What is the best way to approach data sufficiency questions?,Read the question and statements carefully,Jump to conclusions,Use a calculator,Skip to the next question,1
+Data Sufficiency,In data sufficiency, what does it mean if both statements are contradictory?,The question cannot be answered,One statement is sufficient,Both statements are insufficient,The answer is indeterminate,3
+Data Sufficiency,What is the significance of the answer choices in data sufficiency?,They guide the analysis of the statements,They provide hints for solving,They are irrelevant,They are always the same,1
+Data Sufficiency,If Statement 1 gives a percentage and Statement 2 gives a total, what is the best approach?,Use both statements together,Use Statement 1 alone,Use Statement 2 alone,Check for consistency,1
+Data Sufficiency,What is the role of assumptions in data sufficiency questions?,They are not allowed,They help clarify the question,They are necessary for solving,They complicate the problem,1
+Data Sufficiency,How can you quickly assess the sufficiency of a statement?,Look for key terms,Calculate values,Read the question stem,All of the above,1
+Data Sufficiency,What is the typical time limit for data sufficiency questions in exams?,1 minute,2 minutes,3 minutes,5 minutes,2
+Data Sufficiency,What is the first thing to do when faced with a data sufficiency question?,Read the statements,Analyze the question stem,Identify the variables,Eliminate answer choices,2
+Data Sufficiency,If a question involves ratios, what should you look for in the statements?,Exact values,Proportions,Comparative values,All of the above,4
+Data Sufficiency,What is a common pitfall in data sufficiency?,Overthinking the problem,Underestimating the statements,Ignoring the question stem,All of the above,4
+Data Sufficiency,What is the significance of the term "sufficient" in data sufficiency questions?,It means the data can answer the question completely,It means the data is partially helpful,It means the data is irrelevant,It means the data is contradictory,1
+Data Sufficiency,How should you treat variables in data sufficiency questions?,Assume they can take any value,Assume they are fixed,Ignore them,Always assign them a value,1
+Data Sufficiency,What is the best way to practice data sufficiency questions?,Use practice tests,Read theory books,Watch videos,Discuss with peers,1
+Data Sufficiency,If a question asks for a minimum value and Statement 1 gives a maximum, what should you conclude?,Statement 1 is sufficient,Statement 2 is sufficient,Both statements are needed,Neither statement is sufficient,4
+Data Sufficiency,What is the importance of logical reasoning in data sufficiency?,It helps in analyzing statements,It is not important,It complicates the problem,It is only useful for verbal questions,1
+Data Sufficiency,What is a common format for data sufficiency questions?,"Is X greater than Y?", "What is the value of X?", "How many?", "All of the above",4
+Data Sufficiency,If a question involves percentages, what should you check in the statements?,If they provide absolute values,If they provide ratios,If they provide comparisons,All of the above,1
+Data Sufficiency,What is the significance of the term "both statements together"?,It means to analyze both statements at once,It means to disregard one statement,It means to focus on one statement,It is not significant,1
+Data Sufficiency,What is the best approach if you find a statement confusing?,Skip it,Analyze it carefully,Guess the answer,Ask someone for help,2
+Data Sufficiency,If a question asks for a total and Statement 1 gives a part, what should you do?,Use Statement 1,Use Statement 2,Combine both statements,Check for additional information,3
+Data Sufficiency,What is the role of practice in mastering data sufficiency?,It helps build familiarity with question types,It is not important,It complicates understanding,It is only useful for verbal questions,1
+Data Sufficiency,What is the best way to eliminate answer choices in data sufficiency?,Analyze each statement separately,Use a calculator,Guess intelligently,Skip to the next question,1
+Data Sufficiency,If a question asks for a specific outcome and Statement 1 gives a general condition, what should you conclude?,Statement 1 is sufficient,Statement 2 is sufficient,Both statements are needed,Neither statement is sufficient,4
+Data Sufficiency,What is the significance of the term "either statement alone"?,It means both statements can be used separately,It means one statement is sufficient,It means both statements are needed,It is not significant,2
+Data Sufficiency,What is the best strategy for time management in data sufficiency?,Spend equal time on each question,Focus on easier questions first,Skip difficult questions,All of the above,2
+Data Sufficiency,If a question involves averages, what should you look for in the statements?,Exact numbers,Additional averages,Comparative values,All of the above,1
+Data Sufficiency,What is the importance of understanding the question context?,It helps in analyzing the statements,It is not important,It complicates the problem,It is only useful for verbal questions,1
+Data Sufficiency,What is the best way to approach a question with multiple variables?,Analyze each variable separately,Combine variables,Ignore variables,Assume fixed values,1
+Data Sufficiency,If a question asks for a range and Statement 1 gives a specific value, what should you do?,Use Statement 1,Use Statement 2,Combine both statements,Check for consistency,1
+Data Sufficiency,What is the key difference between data sufficiency and problem solving questions?,Focus on whether information is sufficient vs finding solutions,Problem solving is harder,Data sufficiency requires more calculations,No significant difference,1
+Data Sufficiency,If a question asks "Is x > 5?" and Statement 1 says "x > 3", what should you do?,Check Statement 2,Mark Statement 1 as sufficient,Mark Statement 1 as insufficient,Combine with Statement 2,3
+Data Sufficiency,What does it mean when neither statement alone is sufficient but together they are?,Answer is C,Question cannot be answered,Data is contradictory,One statement must be wrong,1
+Data Sufficiency,When evaluating statements, what should you assume about numbers?,They are real numbers unless stated otherwise,They are always integers,They are always positive,They are always whole numbers,1
+Data Sufficiency,If a question involves geometry, what should you do with diagrams?,Assume they are drawn to scale,Assume they are not to scale,Ignore them,Only use them if specified,2
+Data Sufficiency,What is the most efficient way to handle yes/no questions?,Determine if answer is definitively yes or no,Always answer maybe,Look for counterexamples,Both 1 and 3,4
+Data Sufficiency,If Statement 1 gives x=5 and Statement 2 gives x=7, what does this indicate?,Data is contradictory,Both statements are sufficient,Question cannot be answered,One statement must be wrong,1
+Data Sufficiency,What should you do if a statement contains the word "some"?,Consider it may not represent all cases,Assume it means "all",Ignore it,Consider it absolute,1
+Data Sufficiency,How should you approach questions about inequalities?,Test boundary cases,Assume equality,Ignore constraints,Only use positive numbers,1
+Data Sufficiency,What is the best strategy for value questions?,Look for exact numerical value,Accept ranges,Estimate,All of the above,1
+Data Sufficiency,If a question involves averages, what key information is needed?,Sum and number of terms,Individual terms,Both,Neither,1
+Data Sufficiency,What should you do when statements provide different units?,Convert to same units,Ignore units,Assume compatibility,Mark as insufficient,1
+Data Sufficiency,How should you treat percentages in statements?,Consider absolute values if possible,Always accept percentages,Ignore them,Convert to fractions,1
+Data Sufficiency,What is the best approach for ratio questions?,Look for actual quantities,Accept ratio alone,Estimate,Assume integers,1
+Data Sufficiency,If a question involves probability, what should you look for?,Total possible outcomes,Favorable outcomes,Both,Neither,3
+Data Sufficiency,How should you handle questions about prime numbers?,Remember common primes,Consider divisibility,Check for even numbers,All of the above,4
+Data Sufficiency,What is important for work-rate problems?,Relationship between time and work,Individual rates,Both,Neither,3
+Data Sufficiency,How should you approach age problems?,Set up equations,Look for time references,Both,Neither,3
+Data Sufficiency,What is key for mixture problems?,Concentration ratios,Total quantities,Both,Neither,3
+Data Sufficiency,How should you treat statements with absolute values?,Consider both positive and negative cases,Assume positive,Ignore negatives,Mark as insufficient,1
+Data Sufficiency,What is important for coordinate geometry questions?,Slopes and intercepts,Graph shapes,Both,Neither,1
+Data Sufficiency,How should you approach remainder problems?,Understand modulo relationships,Test numbers,Both,Neither,3
+Data Sufficiency,What is key for permutation/combination problems?,Determine if order matters,Calculate factorial,Both,Neither,1
+Data Sufficiency,How should you treat statements with inequalities?,Graph them if needed,Test boundary values,Both,Neither,3
+Data Sufficiency,What is important for profit/loss questions?,Cost price vs selling price,Percentage values,Both,Neither,3
+Data Sufficiency,How should you approach speed-distance-time problems?,Use basic formulas,Convert units,Both,Neither,3
+Data Sufficiency,What is key for set theory questions?,Venn diagrams,Cardinality,Both,Neither,3
+Data Sufficiency,How should you treat statements with exponents?,Remember exponent rules,Look for common bases,Both,Neither,3
+Data Sufficiency,What is important for number property questions?,Odd/even rules,Prime factors,Both,Neither,3
+Data Sufficiency,How should you approach geometry volume questions?,Know volume formulas,Understand dimensions,Both,Neither,3
+Data Sufficiency,What is key for clock angle problems?,Understand minute/hour rates,Calculate differences,Both,Neither,3
+Data Sufficiency,How should you treat statements with roots?,Rationalize if needed,Consider positive roots,Both,Neither,3
+HTML,What does HTML stand for?,Hyper Text Markup Language,High Text Markup Language,Hyperlink and Text Markup Language,Hyper Text Machine Language,1
+HTML,Which of the following is the correct HTML element for the largest heading?,<h1>,<heading>,<h6>,<h5>,1
+HTML,What is the correct HTML element for inserting a line break?,<break>,<br>,<lb>,<linebreak>,2
+HTML,Which HTML attribute is used to define inline styles?,style,class,styles,font,1
+HTML,What is the purpose of the <title> tag in HTML?,To define the title of the document,To create a heading,To insert a link,To add a comment,1
+HTML,Which of the following elements is used to create an unordered list?,<ol>,<ul>,<list>,<dl>,2
+HTML,What is the correct HTML element for a hyperlink?,<link>,<a>,<href>,<url>,2
+HTML,Which HTML tag is used to define an image?,<img>,<image>,<pic>,<src>,1
+HTML,What does the <head> section of an HTML document contain?,Metadata,Content,Body,Footer,1
+HTML,Which of the following is a block-level element?,<span>,<div>,<a>,<img>,2
+HTML,What is the purpose of the <meta> tag in HTML?,To provide metadata about the HTML document,To create a link,To define a heading,To insert an image,1
+HTML,Which attribute is used to specify the URL of a link?,src,href,link,url,2
+HTML,What is the correct way to comment in HTML?,<!-- comment -->,// comment,/* comment */,# comment,1
+HTML,Which HTML element is used to define a table?,<table>,<tab>,<tbl>,<data>,1
+HTML,What is the purpose of the <form> tag in HTML?,To create a form for user input,To define a table,To create a link,To insert an image,1
+HTML,Which of the following is NOT a valid HTML5 element?,<header>,<footer>,<section>,<bodytext>,4
+HTML,What is the default display property of a <div> element?,inline,block,flex,grid,2
+HTML,Which tag is used to create a dropdown list in HTML?,<select>,<dropdown>,<list>,<option>,1
+HTML,What is the purpose of the <iframe> tag in HTML?,To embed another document within the current HTML document,To create a link,To define a heading,To insert an image,1
+HTML,Which of the following is used to create a checkbox in HTML?,<input type="checkbox">,<checkbox>,<input type="check">,<check>,1
+HTML,What does the <strong> tag do in HTML?,Defines important text,Defines bold text,Defines italic text,Defines underlined text,1
+HTML,Which HTML element is used to define a footer for a document or section?,<footer>,<bottom>,<section>,<end>,1
+HTML,What is the purpose of the <link> tag in HTML?,To link to external resources,To create a hyperlink,To define a heading,To insert an image,1
+HTML,Which attribute is used to specify an alternate text for an image?,alt,title,src,href,1
+HTML,What is the correct HTML element for playing audio files?,<audio>,<sound>,<music>,<play>,1
+HTML,Which of the following is a semantic HTML element?,<div>,<span>,<article>,<table>,3
+HTML,What does the <script> tag do in HTML?,Defines a client-side script,Defines a heading,Defines a link,Defines an image,1
+HTML,Which tag is used to create a numbered list in HTML?,<ol>,<ul>,<list>,<dl>,1
+HTML,What is the purpose of the <canvas> element in HTML?,To draw graphics on the fly,To create a link,To define a heading,To insert an image,1
+HTML,Which of the following is a valid way to include CSS in an HTML document?,<style>,<css>,<link>,Both A and C,4
+HTML,What is the correct HTML element for defining a navigation section?,<nav>,<navigation>,<menu>,<link>,1
+HTML,What does the <body> tag represent in an HTML document?,The main content of the document,The metadata of the document,The header of the document,The footer of the document,1
+HTML,Which HTML element is used to define a section in a document?,<section>,<div>,<article>,<header>,1
+HTML,What is the purpose of the <blockquote> tag in HTML?,To define a section that is quoted from another source,To create a link,To define a heading,To insert an image,1
+HTML,Which attribute is used to specify the character encoding in HTML?,charset,encoding,content-type,meta,1
+HTML,What is the correct HTML element for defining a header for a document or section?,<header>,<head>,<h1>,<title>,1
+HTML,Which tag is used to create a horizontal line in HTML?,<hr>,<line>,<break>,<hline>,1
+HTML,What does the <meta name="viewport"> tag do?,Controls the layout on mobile browsers,Defines the character set,Links to external stylesheets,Defines the document title,1
+HTML,Which HTML element is used to define a navigation link?,<nav>,<link>,<a>,<menu>,3
+HTML,What is the purpose of the <style> tag in HTML?,To define CSS styles for the document,To create a link,To define a heading,To insert an image,1
+HTML,Which of the following is a valid HTML5 input type?,<input type="date">,<input type="color">,<input type="range">,All of the above,4
+HTML,What does the <canvas> element allow you to do?,Draw graphics on the fly,Create links,Define headings,Insert images,1
+HTML,Which tag is used to create a tooltip in HTML?,<tooltip>,<title>,<tip>,<hover>,2
+HTML,What is the purpose of the <noscript> tag in HTML?,To provide alternative content for users with scripts disabled,To define a heading,To create a link,To insert an image,1
+HTML,Which HTML element is used to define a list item?,<li>,<item>,<listitem>,<liitem>,1
+HTML,What is the correct way to include an external JavaScript file in HTML?,<script src="file.js">,<script href="file.js">,<script link="file.js">,<script file="file.js">,1
+HTML,Which attribute is used to specify the width of an image?,width,height,size,dimension,1
+HTML,What does the <abbr> tag represent in HTML?,An abbreviation,An acronym,An article,An address,1
+HTML,Which HTML element is used to define a definition list?,<dl>,<list>,<deflist>,<description>,1
+HTML,What is the purpose of the <address> tag in HTML?,To define contact information,To create a link,To define a heading,To insert an image,1
+HTML,Which of the following is a valid HTML5 form element?,<input type="email">,<input type="tel">,<input type="url">,All of the above,4
+HTML,What does the <cite> tag do in HTML?,Defines the title of a work,Defines a citation,Defines a quote,Defines a reference,2
+HTML,Which tag is used to create a table row in HTML?,<tr>,<row>,<table-row>,<td>,1
+HTML,What is the purpose of the <th> tag in HTML?,To define a header cell in a table,To define a data cell,To create a link,To insert an image,1
+HTML,Which attribute is used to specify the target of a link?,target,href,linkto,source,1
+HTML,What does the <code> tag do in HTML?,Defines a piece of computer code,Defines a heading,Defines a link,Defines an image,1
+HTML,Which HTML element is used to define a section of navigation links?,<nav>,<menu>,<link>,<section>,1
+HTML,What is the purpose of the <div> tag in HTML?,To group block elements,To create a link,To define a heading,To insert an image,1
+HTML,Which of the following is a valid way to create a checkbox in HTML?,<input type="checkbox">,<checkbox>,<input check="true">,<check>,1
+HTML,What does the <em> tag do in HTML?,Defines emphasized text,Defines bold text,Defines italic text,Defines underlined text,1
+HTML,Which tag is used to create a footer in HTML?,<footer>,<bottom>,<section>,<end>,1
+HTML,What is the purpose of the <link> tag in HTML?,To link to external stylesheets,To create a hyperlink,To define a heading,To insert an image,1
+HTML,Which attribute is used to specify the source of an image?,src,href,link,url,1
+HTML,What is the correct HTML element for defining a navigation section?,<nav>,<navigation>,<menu>,<link>,1
+HTML,Which of the following is a semantic HTML element?,<div>,<span>,<article>,<table>,3
+HTML,What does the <footer> tag represent in an HTML document?,The footer of the document,The header of the document,The main content,The sidebar,1
+HTML,Which tag is used to create a line break in HTML?,<br>,<break>,<lb>,<linebreak>,1
+HTML,What is the purpose of the <meta> tag in HTML?,To provide metadata about the HTML document,To create a link,To define a heading,To insert an image,1
+HTML,Which attribute is used to specify an alternate text for an image?,alt,title,src,href,1
+HTML,What is the correct HTML element for playing video files?,<video>,<media>,<play>,<movie>,1
+HTML,Which of the following is a valid way to include CSS in an HTML document?,<style>,<css>,<link>,Both A and C,4
+HTML,What does the <time> tag represent in HTML?,A specific time or date,An event,An action,An image,1
+HTML,Which tag is used to create a definition term in a definition list?,<dt>,<term>,<def>,<description>,1
+HTML,What is the purpose of the <progress> tag in HTML?,To represent the progress of a task,To create a link,To define a heading,To insert an image,1
+HTML,Which of the following is a valid HTML5 input type?,<input type="date">,<input type="color">,<input type="range">,All of the above,4
+HTML,What does the <var> tag do in HTML?,Defines a variable,Defines a value,Defines a link,Defines an image,1
+HTML,Which HTML element is used to define a section of content that is related?,<aside>,<section>,<div>,<article>,1
+HTML,What is the purpose of the <details> tag in HTML?,To create a disclosure widget from which the user can obtain additional information,To define a heading,To create a link,To insert an image,1
+HTML,Which of the following is a valid HTML5 element for creating a slider?,<input type="range">,<slider>,<input type="slide">,<range>,1
+HTML,What is the purpose of the <mark> tag in HTML5?,To highlight text,To mark important content,To create a bookmark,To indicate deleted text,1
+HTML,Which HTML5 element is used for playing video content?,<video>,<media>,<movie>,<play>,1
+HTML,What does the <kbd> tag represent in HTML?,Keyboard input,Code snippet,Important text,Citation,1
+HTML,Which attribute is used to make an input field required in HTML5?,required,mandatory,necessary,validate,1
+HTML,What is the purpose of the <datalist> element in HTML5?,To provide autocomplete options,To create a data table,To store hidden data,To list definitions,1
+HTML,Which HTML5 element is used for scalar measurements within a known range?,<meter>,<progress>,<range>,<measure>,1
+HTML,What does the <wbr> tag do in HTML?,Indicates a possible line break opportunity,Creates a word break,Inserts whitespace,Defines a new line,1
+HTML,Which HTML5 element is used for side content like a sidebar?,<aside>,<sidebar>,<section>,<div>,1
+HTML,What is the purpose of the <output> tag in HTML5?,To represent the result of a calculation,To display command output,To show form results,To create a log,1
+HTML,Which HTML5 attribute is used for form validation?,pattern,validate,check,verify,1
+HTML,What does the <ruby> tag represent in HTML?,Ruby annotations for East Asian typography,Code snippets,Highlighted text,Mathematical formulas,1
+HTML,Which HTML5 element is used for date/time information?,<time>,<date>,<datetime>,<timestamp>,1
+HTML,What is the purpose of the <picture> element in HTML5?,Responsive image loading,Creating photo galleries,Embedding images,Displaying icons,1
+HTML,Which HTML5 attribute is used for drag and drop functionality?,draggable,drag,drop,movable,1
+HTML,What does the <template> tag do in HTML5?,Stores client-side content that isn't rendered,Creates reusable templates,Defines page layouts,Stores server-side includes,1
+HTML,Which HTML5 element is used for mathematical formulas?,<math>,<formula>,<equation>,<msub>,1
+HTML,What is the purpose of the <dialog> tag in HTML5?,To create a modal dialog box,For conversation markup,To define documentation,For debugging output,1
+HTML,Which HTML5 attribute is used for spell checking?,spellcheck,checkspell,validate,correct,1
+HTML,What does the <summary> tag represent in HTML5?,A visible heading for <details> element,A document summary,An executive summary,A table of contents,1
+HTML,Which HTML5 element is used for scalar measurements of disk space?,<meter>,<progress>,<disk>,<space>,1
+HTML,What is the purpose of the <samp> tag in HTML?,Sample output from a computer program,Example code,Standard text,Simple markup,1
+HTML,Which HTML5 attribute is used for context menus?,contextmenu,menu,rightclick,dropdown,1
+Logical Reasoning,If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,All cats are mammals. Some mammals are not dogs. Therefore, what can we conclude?,Some cats are not dogs,All cats are dogs,Some mammals are cats,All mammals are cats,1
+Logical Reasoning,If A is taller than B and B is taller than C, who is the shortest?,A,B,C,Not enough information,3
+Logical Reasoning,If it rains, then the ground gets wet. It is raining. What can we conclude?,The ground is wet,The ground is dry,It might be wet,Not enough information,1
+Logical Reasoning,If all students are learners and some learners are not scholars, what can we conclude?,Some students are not scholars,All students are scholars,Some scholars are students,All learners are students,1
+Logical Reasoning,If a person is a doctor, then they have a medical degree. John is a doctor. What can we conclude?,John has a medical degree,John does not have a medical degree,John might have a medical degree,Not enough information,1
+Logical Reasoning,If A is equal to B and B is equal to C, what can we conclude about A and C?,A is greater than C,A is less than C,A is equal to C,Not enough information,3
+Logical Reasoning,If some birds can fly and some birds cannot fly, what can we conclude?,All birds can fly,Some birds can fly,Some birds cannot fly,All birds cannot fly,3
+Logical Reasoning,If the statement "All humans are mortal" is true, what can we conclude about Socrates?,Socrates is mortal,Socrates is immortal,Not enough information,All humans are Socrates,1
+Logical Reasoning,If A is a parent of B and B is a parent of C, what is the relationship between A and C?,Grandparent,Parent,Child,Sibling,1
+Logical Reasoning,If it is a weekend, then I will go hiking. It is not a weekend. What can we conclude?,I will go hiking,I will not go hiking,It might be a weekend,Not enough information,2
+Logical Reasoning,If all cars are vehicles and some vehicles are electric, can we conclude that some cars are electric?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If A is a square and B is a rectangle, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If the sun rises in the east, what can we conclude about the direction of the sunset?,It sets in the west,It sets in the east,It sets in the north,Not enough information,1
+Logical Reasoning,If all fruits are sweet and some sweet things are not fruits, what can we conclude?,All sweet things are fruits,Some sweet things are not fruits,Some fruits are not sweet,All fruits are not sweet,2
+Logical Reasoning,If A is a dog and B is a cat, can we conclude that A is not B?,Yes,No,Not necessarily,All of the above,1
+Logical Reasoning,If it is snowing, then it is cold. It is not cold. What can we conclude?,It is not snowing,It is snowing,It might be snowing,Not enough information,1
+Logical Reasoning,If all teachers are educated and some educated people are not teachers, what can we conclude?,Some teachers are not educated,All educated people are teachers,Some educated people are teachers,All teachers are educated,3
+Logical Reasoning,If A is greater than B and B is greater than C, what can we conclude about A and C?,A is less than C,A is equal to C,A is greater than C,Not enough information,3
+Logical Reasoning,If some animals are not pets and all pets are animals, what can we conclude?,All animals are pets,Some animals are pets,Some pets are not animals,Not enough information,4
+Logical Reasoning,If A is a parent of B and B is a sibling of C, what is the relationship between A and C?,Parent,Child,Sibling,Not enough information,1
+Logical Reasoning,If it is raining, then the match is canceled. The match is not canceled. What can we conclude?,It is not raining,It is raining,It might be raining,Not enough information,1
+Logical Reasoning,If all squares are rectangles, can we conclude that all rectangles are squares?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If A is a fruit and B is an apple, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If some students are not athletes and all athletes are fit, what can we conclude?,All students are fit,Some students are fit,Some students are not fit,Not enough information,3
+Logical Reasoning,If A is a circle and B is a shape, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,1
+Logical Reasoning,If it is a holiday, then the office is closed. The office is open. What can we conclude?,It is not a holiday,It is a holiday,It might be a holiday,Not enough information,1
+Logical Reasoning,If all dogs bark and some animals do not bark, what can we conclude?,All animals are dogs,Some animals are not dogs,Some dogs do not bark,Not enough information,2
+Logical Reasoning,If all birds have wings and some creatures with wings are not birds, what can we conclude?,All creatures with wings are birds,Some creatures with wings are not birds,Some birds do not have wings,Not enough information,2
+Logical Reasoning,If A is a teacher and B is a student, can we conclude that A teaches B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If all mammals are warm-blooded and some warm-blooded animals are not mammals, what can we conclude?,Some warm-blooded animals are not mammals,All mammals are warm-blooded,Some mammals are not warm-blooded,Not enough information,1
+Logical Reasoning,If A is a parent of B and C is a sibling of B, what is the relationship between A and C?,Parent,Child,Sibling,Not enough information,1
+Logical Reasoning,If it is sunny, then I will go for a walk. It is not sunny. What can we conclude?,I will go for a walk,I will not go for a walk,It might be sunny,Not enough information,2
+Logical Reasoning,If all birds are animals and some animals are not birds, can we conclude that some birds are not animals?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If A is greater than B and C is less than A, what can we conclude about B and C?,B is greater than C,B is less than C,B is equal to C,Not enough information,1
+Logical Reasoning,If all cars are vehicles and some vehicles are trucks, can we conclude that some cars are trucks?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If A is a fruit and B is an orange, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If it is raining, then the picnic is canceled. The picnic is not canceled. What can we conclude?,It is not raining,It is raining,It might be raining,Not enough information,1
+Logical Reasoning,If all squares are rectangles and some rectangles are not squares, what can we conclude?,All rectangles are squares,Some rectangles are not squares,Some squares are not rectangles,Not enough information,2
+Logical Reasoning,If A is a dog and B is a pet, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If all teachers are educated and some educated people are not teachers, what can we conclude?,Some teachers are not educated,All educated people are teachers,Some educated people are teachers,All teachers are educated,3
+Logical Reasoning,If A is taller than B and B is shorter than C, who is the tallest?,A,B,C,Not enough information,1
+Logical Reasoning,If it is a weekday, then I will go to work. It is a weekday. What can we conclude?,I will go to work,I will not go to work,It might be a weekend,Not enough information,1
+Logical Reasoning,If all humans are mortal and Socrates is a human, what can we conclude about Socrates?,Socrates is mortal,Socrates is immortal,Not enough information,All humans are Socrates,1
+Logical Reasoning,If A is a parent of B and B is a child of C, what is the relationship between A and C?,Grandparent,Parent,Child,Sibling,1
+Logical Reasoning,If all fruits are sweet and some sweet things are not fruits, what can we conclude?,All sweet things are fruits,Some sweet things are not fruits,Some fruits are not sweet,All fruits are not sweet,2
+Logical Reasoning,If A is a square and B is a rectangle, can we conclude that B is a square?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If it is snowing, then it is cold. It is cold. What can we conclude?,It is snowing,It is not snowing,It might be snowing,Not enough information,3
+Logical Reasoning,If all dogs bark and some animals do not bark, what can we conclude?,All animals are dogs,Some animals are not dogs,Some dogs do not bark,Not enough information,2
+Logical Reasoning,If A is a teacher and B is a student, can we conclude that A teaches B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If it is a holiday, then the office is closed. The office is closed. What can we conclude?,It is a holiday,It is not a holiday,It might be a holiday,Not enough information,3
+Logical Reasoning,If all squares are rectangles, can we conclude that all rectangles are squares?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If A is a fruit and B is a banana, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If some students are not athletes and all athletes are fit, what can we conclude?,All students are fit,Some students are fit,Some students are not fit,Not enough information,3
+Logical Reasoning,If A is a circle and B is a shape, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,1
+Logical Reasoning,If it is raining, then the match is canceled. The match is canceled. What can we conclude?,It is raining,It is not raining,It might be raining,Not enough information,3
+Logical Reasoning,If all mammals are warm-blooded and some warm-blooded animals are not mammals, what can we conclude?,Some warm-blooded animals are not mammals,All mammals are warm-blooded,Some mammals are not warm-blooded,Not enough information,1
+Logical Reasoning,If A is a parent of B and C is a sibling of B, what is the relationship between A and C?,Parent,Child,Sibling,Not enough information,1
+Logical Reasoning,If it is sunny, then I will go for a walk. It is not sunny. What can we conclude?,I will go for a walk,I will not go for a walk,It might be sunny,Not enough information,2
+Logical Reasoning,If all birds are animals and some animals are not birds, can we conclude that some birds are not animals?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If A is greater than B and C is less than A, what can we conclude about B and C?,B is greater than C,B is less than C,B is equal to C,Not enough information,1
+Logical Reasoning,If all cars are vehicles and some vehicles are trucks, can we conclude that some cars are trucks?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If A is a fruit and B is an orange, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If it is raining, then the picnic is canceled. The picnic is not canceled. What can we conclude?,It is not raining,It is raining,It might be raining,Not enough information,1
+Logical Reasoning,If all squares are rectangles and some rectangles are not squares, what can we conclude?,All rectangles are squares,Some rectangles are not squares,Some squares are not rectangles,Not enough information,2
+Logical Reasoning,If A is a dog and B is a pet, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If all teachers are educated and some educated people are not teachers, what can we conclude?,Some teachers are not educated,All educated people are teachers,Some educated people are teachers,All teachers are educated,3
+Logical Reasoning,If A is taller than B and B is shorter than C, who is the tallest?,A,B,C,Not enough information,1
+Logical Reasoning,If it is a weekday, then I will go to work. It is a weekday. What can we conclude?,I will go to work,I will not go to work,It might be a weekend,Not enough information,1
+Logical Reasoning,If all humans are mortal and Socrates is a human, what can we conclude about Socrates?,Socrates is mortal,Socrates is immortal,Not enough information,All humans are Socrates,1
+Logical Reasoning,If A is a parent of B and B is a child of C, what is the relationship between A and C?,Grandparent,Parent,Child,Sibling,1
+Logical Reasoning,If all fruits are sweet and some sweet things are not fruits, what can we conclude?,All sweet things are fruits,Some sweet things are not fruits,Some fruits are not sweet,All fruits are not sweet,2
+Logical Reasoning,If A is a square and B is a rectangle, can we conclude that B is a square?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If it is snowing, then it is cold. It is cold. What can we conclude?,It is snowing,It is not snowing,It might be snowing,Not enough information,3
+Logical Reasoning,If all dogs bark and some animals do not bark, what can we conclude?,All animals are dogs,Some animals are not dogs,Some dogs do not bark,Not enough information,2
+Logical Reasoning,If A is a teacher and B is a student, can we conclude that A teaches B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If it is a holiday, then the office is closed. The office is closed. What can we conclude?,It is a holiday,It is not a holiday,It might be a holiday,Not enough information,3
+Logical Reasoning,If all squares are rectangles, can we conclude that all rectangles are squares?,Yes,No,Not necessarily,All of the above,2
+Logical Reasoning,If A is a fruit and B is a banana, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If some students are not athletes and all athletes are fit, what can we conclude?,All students are fit,Some students are fit,Some students are not fit,Not enough information,3
+Logical Reasoning,If A is a circle and B is a shape, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,1
+Logical Reasoning,If it is raining, then the match is canceled. The match is canceled. What can we conclude?,It is raining,It is not raining,It might be raining,Not enough information,3
+Logical Reasoning,If all birds can fly and some creatures cannot fly, can we conclude that those creatures are not birds?,Yes,No,Not necessarily,All of the above,1
+Logical Reasoning,If A is a parent of B and B is a parent of C, what is the relationship between A and C?,Grandparent,Parent,Child,Sibling,1
+Logical Reasoning,If it is a weekday, then I will go to work. I did not go to work. What can we conclude?,It is a weekday,It is not a weekday,It might be a weekday,Not enough information,2
+Logical Reasoning,If all mammals have lungs and some animals do not have lungs, can we conclude that those animals are not mammals?,Yes,No,Not necessarily,All of the above,1
+Logical Reasoning,If A is taller than B and C is shorter than A, who is the shortest?,A,B,C,Not enough information,2
+Logical Reasoning,If all fruits are sweet and some sweet things are not fruits, what can we conclude?,Some sweet things are fruits,All sweet things are fruits,Some fruits are not sweet,Not enough information,3
+Logical Reasoning,If A is a dog and B is a poodle, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If it is raining, then the ground is wet. The ground is not wet. What can we conclude?,It is not raining,It is raining,It might be raining,Not enough information,1
+Logical Reasoning,If all squares are rectangles and some rectangles are not squares, what can we conclude?,Some rectangles are squares,All rectangles are squares,Some squares are not rectangles,Not enough information,3
+Logical Reasoning,If A is a teacher and B is a student, can we conclude that B learns from A?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If all cars are vehicles and some vehicles are electric, can we conclude that some cars are electric?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If A is a fruit and B is an apple, can we conclude that A is B?,Yes,No,Not necessarily,All of the above,3
+Logical Reasoning,If it is a holiday, then the office is closed. The office is closed. What can we conclude?,It is a holiday,It is not a holiday,It might be a holiday,Not enough information,3
+Logical Reasoning,If all teachers are educated and some educated people are not teachers, what can we conclude?,Some teachers are not educated,All educated people are teachers,Some educated people are teachers,All teachers are educated,3
+Logical Reasoning,If A is greater than B and B is greater than C, what can we conclude about A and C?,A is less than C,A is equal to C,A is greater than C,Not enough information,3
+Logical Reasoning,If some animals are not pets and all pets are animals, what can we conclude?,All animals are pets,Some animals are pets,Some pets are not animals,Not enough information,4
+Logical Reasoning,If A is a parent of B and B is a sibling of C, what is the relationship between A and C?,Parent,Child,Sibling,Not enough information,1
+Logical Reasoning,If it is snowing, then it is cold. It is not cold. What can we conclude?,It is not snowing,It is snowing,It might be snowing,Not enough information,1
