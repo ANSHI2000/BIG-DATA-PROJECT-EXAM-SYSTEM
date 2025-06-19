@@ -3,21 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Special Test</title>
+  <title>Paragraph to MCQ Generator</title>
   <style>
+    /* Background and font settings */
     body {
-      font-family: Arial, sans-serif;
-      background: #f1f1f1;
-      padding: 20px;
+      background: url('auto.jpg') center center/cover;
+      height: 100vh;
+      font-family: 'Segoe UI';
     }
+
+    /* Main container styling */
     .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 10px 8px 32px rgba(0,0,0,0.2);
+      width: 90%;
     }
+
+    /* Textarea input */
     textarea {
       width: 100%;
       height: 150px;
@@ -25,8 +30,10 @@
       font-size: 1rem;
       margin-bottom: 10px;
       border-radius: 5px;
-      border: 1px solid #ccc;
+      border: 1px solid #cccccc;
     }
+
+    /* Button styling */
     button {
       padding: 10px 20px;
       font-size: 1rem;
@@ -36,23 +43,30 @@
       border-radius: 5px;
       cursor: pointer;
     }
+
+    /* Generated question styling */
     .question {
       margin-top: 20px;
       background: #f9f9f9;
       padding: 15px;
       border-radius: 5px;
     }
+
+    /* Option styling */
     .option {
       margin: 5px 0;
     }
+
     .correct {
       color: green;
       font-weight: bold;
     }
+
     .wrong {
       color: red;
       font-weight: bold;
     }
+
     @media(max-width: 600px) {
       textarea {
         height: 120px;
@@ -63,45 +77,65 @@
 <body>
   <div class="container">
     <h2>Paragraph to MCQ Generator</h2>
+
+    <!-- Textarea for user to input paragraph -->
     <textarea id="paragraph" placeholder="Enter a paragraph..."></textarea>
+
+    <!-- Button to generate MCQs -->
     <button onclick="generateQuestions()">Generate Questions</button>
-    <form method="post" action="AuthPage.php">
-      <br><button type="submit" class="btn btn-danger btn-custom">Logout</button>
-    </form>
+
+    <!-- Div to hold generated questions -->
     <div id="questions"></div>
+
+    <!-- Back and Logout Buttons -->
+    <form method="post" action="Student.php">
+      <br><button type="submit" class="btn-custom" style="background-color:#ffc107;color:white;">⬅ Back to Dashboard</button>
+    </form>
+
+    <form method="post" action="AuthPage.php">
+      <br><button type="submit" class="btn-custom" style="background-color:#dc3545;color:white;">Logout</button>
+    </form>
   </div>
 
   <script>
+    // Generate MCQs from paragraph
     function generateQuestions() {
       const para = document.getElementById("paragraph").value.trim();
       const outputDiv = document.getElementById("questions");
       outputDiv.innerHTML = "";
 
+      // If paragraph is empty
       if (!para) {
         outputDiv.innerHTML = "<p style='color:red;'>Please enter a paragraph.</p>";
         return;
       }
 
+      // Split paragraph into meaningful sentences
       const sentences = para.split(/[.?!]\s+/).filter(s => s.trim().length > 10);
 
+      // Loop through top 5 sentences to generate questions
       sentences.slice(0, 5).forEach((sentence, index) => {
         const words = sentence.split(" ");
-        const keywordIndex = Math.floor(Math.random() * words.length);
-        const keyword = words[keywordIndex].replace(/[.,!?]/g, "");
-        const questionText = sentence.replace(keyword, "______");
+        const keywordIndex = Math.floor(Math.random() * words.length); // Random keyword
+        const keyword = words[keywordIndex].replace(/[.,!?]/g, ""); // Cleaned keyword
+        const questionText = sentence.replace(keyword, "______"); // Create fill-in-the-blank
 
-        const options = [keyword];
+        const options = [keyword]; // First option is correct answer
+
+        // Generate 3 random distractors
         while (options.length < 4) {
           const randomWord = words[Math.floor(Math.random() * words.length)].replace(/[.,!?]/g, "");
           if (!options.includes(randomWord)) options.push(randomWord);
         }
 
-        shuffleArray(options);
+        shuffleArray(options); // Shuffle options randomly
 
+        // Build question HTML block
         const questionHTML = document.createElement("div");
         questionHTML.classList.add("question");
 
-        questionHTML.innerHTML = `<p><strong>Q${index + 1}:</strong> ${questionText}</p>` + 
+        // Append question and radio options
+        questionHTML.innerHTML = `<p><strong>Q${index + 1}:</strong> ${questionText}</p>` +
           options.map(opt => `
             <div class="option">
               <label>
@@ -110,14 +144,16 @@
             </div>
           `).join("");
 
+        // Add result area below each question
         const resultPara = document.createElement("p");
         resultPara.id = `result${index}`;
         questionHTML.appendChild(resultPara);
 
-        outputDiv.appendChild(questionHTML);
+        outputDiv.appendChild(questionHTML); // Append to page
       });
     }
 
+    // Shuffle array randomly (Fisher-Yates Shuffle)
     function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -125,6 +161,7 @@
       }
     }
 
+    // Show result immediately after selecting an option
     function showResult(input, correctAnswer) {
       const result = input.closest('.question').querySelector("p[id^='result']");
       if (input.value === correctAnswer) {
@@ -136,3 +173,4 @@
   </script>
 </body>
 </html>
+
